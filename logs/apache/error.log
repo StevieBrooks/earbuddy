@@ -1,0 +1,94 @@
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Apr 17 10:33:18.667053 2024] [mpm_event:notice] [pid 597:tid 4548980224] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Wed Apr 17 10:33:18.667875 2024] [core:notice] [pid 597:tid 4548980224] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Wed Apr 17 14:28:42.393434 2024] [mpm_event:notice] [pid 597:tid 4548980224] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Sun Apr 21 09:36:31.881548 2024] [mpm_event:notice] [pid 614:tid 4523499008] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sun Apr 21 09:36:31.882174 2024] [core:notice] [pid 614:tid 4523499008] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Sun Apr 21 10:38:16.096082 2024] [mpm_event:notice] [pid 614:tid 4523499008] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Sun Apr 21 10:39:24.416427 2024] [mpm_event:notice] [pid 1632:tid 4723191296] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sun Apr 21 10:39:24.417404 2024] [core:notice] [pid 1632:tid 4723191296] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Sun Apr 21 11:38:14.649261 2024] [mpm_event:notice] [pid 1632:tid 4723191296] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Sun Apr 21 14:55:04.257468 2024] [mpm_event:notice] [pid 1406:tid 4460088832] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sun Apr 21 14:55:04.258358 2024] [core:notice] [pid 1406:tid 4460088832] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Sun Apr 21 17:02:50.312691 2024] [mpm_event:notice] [pid 1406:tid 4460088832] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Mon Apr 22 08:57:37.264546 2024] [mpm_event:notice] [pid 991:tid 4789173760] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Mon Apr 22 08:57:37.265306 2024] [core:notice] [pid 991:tid 4789173760] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Mon Apr 22 12:26:46.049435 2024] [mpm_event:notice] [pid 991:tid 4789173760] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Mon Apr 22 14:19:45.250258 2024] [mpm_event:notice] [pid 1472:tid 4550991360] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Mon Apr 22 14:19:45.251132 2024] [core:notice] [pid 1472:tid 4550991360] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Mon Apr 22 17:12:45.268520 2024] [mpm_event:notice] [pid 1472:tid 4550991360] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 23 08:47:34.219042 2024] [mpm_event:notice] [pid 2672:tid 4580343296] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue Apr 23 08:47:34.219814 2024] [core:notice] [pid 2672:tid 4580343296] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Tue Apr 23 12:18:50.535248 2024] [mpm_event:notice] [pid 2672:tid 4580343296] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 23 13:19:45.175786 2024] [mpm_event:notice] [pid 793:tid 4597833216] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue Apr 23 13:19:45.176754 2024] [core:notice] [pid 793:tid 4597833216] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Tue Apr 23 16:21:44.152322 2024] [mpm_event:notice] [pid 793:tid 4597833216] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Apr 24 08:49:26.386980 2024] [mpm_event:notice] [pid 1132:tid 4593516032] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Wed Apr 24 08:49:26.387849 2024] [core:notice] [pid 1132:tid 4593516032] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Wed Apr 24 10:20:57.145902 2024] [mpm_event:notice] [pid 1132:tid 4593516032] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Sun Apr 28 09:29:59.855286 2024] [mpm_event:notice] [pid 1000:tid 4641787392] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sun Apr 28 09:29:59.855932 2024] [core:notice] [pid 1000:tid 4641787392] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Sun Apr 28 12:32:29.533788 2024] [mpm_event:notice] [pid 1000:tid 4641787392] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Mon Apr 29 08:28:56.303605 2024] [mpm_event:notice] [pid 1110:tid 4634213888] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Mon Apr 29 08:28:56.304505 2024] [core:notice] [pid 1110:tid 4634213888] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Mon Apr 29 11:49:26.457036 2024] [mpm_event:notice] [pid 1110:tid 4634213888] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 30 09:05:29.947142 2024] [mpm_event:notice] [pid 976:tid 4587920896] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue Apr 30 09:05:29.947963 2024] [core:notice] [pid 976:tid 4587920896] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Tue Apr 30 12:08:34.600735 2024] [mpm_event:notice] [pid 976:tid 4587920896] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 30 13:19:13.245410 2024] [mpm_event:notice] [pid 905:tid 4333272576] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue Apr 30 13:19:13.246216 2024] [core:notice] [pid 905:tid 4333272576] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Tue Apr 30 16:41:12.437711 2024] [mpm_event:notice] [pid 905:tid 4333272576] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed May 01 08:16:14.510664 2024] [mpm_event:notice] [pid 2571:tid 4756200960] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Wed May 01 08:16:14.512124 2024] [core:notice] [pid 2571:tid 4756200960] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Wed May 01 11:54:30.663644 2024] [mpm_event:notice] [pid 2571:tid 4756200960] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Wed May 01 12:58:57.419117 2024] [mpm_event:notice] [pid 851:tid 4599746048] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Wed May 01 12:58:57.419938 2024] [core:notice] [pid 851:tid 4599746048] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Wed May 01 15:42:15.021040 2024] [mpm_event:notice] [pid 851:tid 4599746048] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Thu May 02 09:02:12.912413 2024] [mpm_event:notice] [pid 1009:tid 4644261376] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Thu May 02 09:02:12.913353 2024] [core:notice] [pid 1009:tid 4644261376] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Thu May 02 11:56:03.351392 2024] [mpm_event:notice] [pid 1009:tid 4644261376] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Thu May 02 14:36:34.322306 2024] [mpm_event:notice] [pid 993:tid 4350692864] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Thu May 02 14:36:34.323128 2024] [core:notice] [pid 993:tid 4350692864] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Thu May 02 15:48:15.140203 2024] [mpm_event:notice] [pid 993:tid 4350692864] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Fri May 03 08:57:17.273161 2024] [mpm_event:notice] [pid 980:tid 4476927488] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri May 03 08:57:17.273895 2024] [core:notice] [pid 980:tid 4476927488] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Fri May 03 12:06:51.835970 2024] [mpm_event:notice] [pid 980:tid 4476927488] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Fri May 03 16:58:41.046181 2024] [mpm_event:notice] [pid 889:tid 4591767040] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri May 03 16:58:41.046800 2024] [core:notice] [pid 889:tid 4591767040] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'

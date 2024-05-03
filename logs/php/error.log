@@ -1,0 +1,173 @@
+[17-Apr-2024 11:27:01 UTC] PHP Warning:  Constant WP_DEBUG already defined in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-config.php on line 105
+[17-Apr-2024 11:27:01 UTC] PHP Warning:  Constant WP_DEBUG_DISPLAY already defined in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-config.php on line 106
+[17-Apr-2024 11:27:02 UTC] PHP Warning:  Constant WP_DEBUG already defined in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-config.php on line 105
+[17-Apr-2024 11:27:02 UTC] PHP Warning:  Constant WP_DEBUG_DISPLAY already defined in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-config.php on line 106
+[17-Apr-2024 12:09:41 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[17-Apr-2024 12:09:51 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 09:10:54 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 09:11:08 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 09:11:18 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 09:18:47 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 09:27:43 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 14:12:01 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 14:12:19 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 14:12:36 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 14:13:18 UTC] PHP Warning:  Undefined array key "height" in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-admin/includes/class-custom-image-header.php on line 1187
+[21-Apr-2024 14:13:21 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 14:14:45 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 14:18:47 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 14:27:31 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 14:28:27 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 14:32:20 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 14:34:08 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 14:34:37 UTC] PHP Warning:  Undefined array key "height" in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-admin/includes/class-custom-image-header.php on line 1187
+[21-Apr-2024 14:36:41 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 14:39:48 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Apr-2024 14:40:19 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[22-Apr-2024 14:37:38 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[22-Apr-2024 14:43:15 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[22-Apr-2024 14:44:53 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[22-Apr-2024 14:50:04 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[22-Apr-2024 15:04:29 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[22-Apr-2024 15:04:50 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[22-Apr-2024 15:18:59 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[22-Apr-2024 15:22:36 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[22-Apr-2024 15:23:12 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[24-Apr-2024 08:18:45 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-home.php on line 54
+[24-Apr-2024 08:19:01 UTC] PHP Warning:  Array to string conversion in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 99
+[24-Apr-2024 08:19:01 UTC] PHP Warning:  Array to string conversion in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 115
+[30-Apr-2024 15:11:58 UTC] WordPress database error Table 'local.wp_actionscheduler_actions' doesn't exist for query SHOW COLUMNS FROM wp_actionscheduler_actions LIKE 'priority' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Versions::initialize_latest_version, action_scheduler_initialize_3_dot_6_dot_3, ActionScheduler::init, do_action('action_scheduler_pre_init'), WP_Hook->do_action, WP_Hook->apply_filters, {closure}
+[01-May-2024 08:15:22 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Query could not be converted to string in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php:16
+Stack trace:
+#0 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-blog-header.php(19): require_once('/Users/stevenbr...')
+#2 /Users/stevenbrooks/Local Sites/earbuddy/app/public/index.php(17): require('/Users/stevenbr...')
+#3 {main}
+  thrown in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 16
+[01-May-2024 08:20:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php:16
+Stack trace:
+#0 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-blog-header.php(19): require_once('/Users/stevenbr...')
+#2 /Users/stevenbrooks/Local Sites/earbuddy/app/public/index.php(17): require('/Users/stevenbr...')
+#3 {main}
+  thrown in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 16
+[01-May-2024 08:20:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ddd() in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php:16
+Stack trace:
+#0 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-blog-header.php(19): require_once('/Users/stevenbr...')
+#2 /Users/stevenbrooks/Local Sites/earbuddy/app/public/index.php(17): require('/Users/stevenbr...')
+#3 {main}
+  thrown in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 16
+[01-May-2024 08:21:10 UTC] PHP Warning:  Undefined variable $data in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 17
+[01-May-2024 08:37:07 UTC] PHP Warning:  Array to string conversion in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 99
+[01-May-2024 08:37:07 UTC] PHP Warning:  Array to string conversion in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 115
+[01-May-2024 09:15:26 UTC] PHP Warning:  Trying to access array offset on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 31
+[01-May-2024 09:15:26 UTC] PHP Warning:  Trying to access array offset on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 31
+[01-May-2024 09:16:05 UTC] PHP Warning:  Trying to access array offset on false in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 31
+[01-May-2024 09:16:05 UTC] PHP Warning:  Trying to access array offset on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 31
+[01-May-2024 09:16:05 UTC] PHP Warning:  Trying to access array offset on null in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 31
+[01-May-2024 09:47:48 UTC] PHP Fatal error:  Uncaught ValueError: explode(): Argument #1 ($separator) cannot be empty in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php:8
+Stack trace:
+#0 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php(8): explode('', '<!-- wp:heading...')
+#1 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/template-loader.php(106): include('/Users/stevenbr...')
+#2 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-blog-header.php(19): require_once('/Users/stevenbr...')
+#3 /Users/stevenbrooks/Local Sites/earbuddy/app/public/index.php(17): require('/Users/stevenbr...')
+#4 {main}
+  thrown in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 8
+[01-May-2024 09:48:43 UTC] PHP Warning:  Array to string conversion in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 9
+[01-May-2024 09:49:48 UTC] PHP Warning:  Array to string conversion in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 9
+[01-May-2024 09:49:51 UTC] PHP Warning:  Array to string conversion in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 9
+[01-May-2024 09:57:31 UTC] PHP Warning:  Undefined array key 20 in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 9
+[01-May-2024 09:57:40 UTC] PHP Warning:  Undefined array key 2 in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 9
+[01-May-2024 09:58:13 UTC] PHP Warning:  Undefined array key 1 in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 9
+[01-May-2024 10:03:05 UTC] PHP Warning:  Undefined array key 2 in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 10
+[01-May-2024 10:16:25 UTC] PHP Warning:  Undefined array key 3 in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 44
+[01-May-2024 10:16:46 UTC] PHP Warning:  Undefined array key 3 in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 44
+[01-May-2024 10:16:57 UTC] PHP Warning:  Undefined array key 3 in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 44
+[01-May-2024 10:17:05 UTC] PHP Warning:  Undefined array key 3 in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 44
+[01-May-2024 10:32:06 UTC] PHP Warning:  Undefined array key 3 in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 44
+[01-May-2024 10:32:22 UTC] PHP Warning:  Undefined array key 3 in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 44
+[01-May-2024 10:37:27 UTC] PHP Warning:  Array to string conversion in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 31
+[01-May-2024 10:37:27 UTC] PHP Warning:  Array to string conversion in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 31
+[01-May-2024 10:37:27 UTC] PHP Warning:  Array to string conversion in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 31
+[01-May-2024 13:19:01 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Post could not be converted to string in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php:11
+Stack trace:
+#0 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-blog-header.php(19): require_once('/Users/stevenbr...')
+#2 /Users/stevenbrooks/Local Sites/earbuddy/app/public/index.php(17): require('/Users/stevenbr...')
+#3 {main}
+  thrown in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php on line 11
+[01-May-2024 13:28:01 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php:11
+Stack trace:
+#0 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-blog-header.php(19): require_once('/Users/stevenbr...')
+#2 /Users/stevenbrooks/Local Sites/earbuddy/app/public/index.php(17): require('/Users/stevenbr...')
+#3 {main}
+  thrown in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php on line 11
+[01-May-2024 13:29:07 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php:11
+Stack trace:
+#0 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-blog-header.php(19): require_once('/Users/stevenbr...')
+#2 /Users/stevenbrooks/Local Sites/earbuddy/app/public/index.php(17): require('/Users/stevenbr...')
+#3 {main}
+  thrown in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php on line 11
+[01-May-2024 13:29:31 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php:11
+Stack trace:
+#0 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-blog-header.php(19): require_once('/Users/stevenbr...')
+#2 /Users/stevenbrooks/Local Sites/earbuddy/app/public/index.php(17): require('/Users/stevenbr...')
+#3 {main}
+  thrown in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php on line 11
+[01-May-2024 13:29:33 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php:11
+Stack trace:
+#0 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-blog-header.php(19): require_once('/Users/stevenbr...')
+#2 /Users/stevenbrooks/Local Sites/earbuddy/app/public/index.php(17): require('/Users/stevenbr...')
+#3 {main}
+  thrown in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php on line 11
+[01-May-2024 13:30:33 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php:8
+Stack trace:
+#0 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-blog-header.php(19): require_once('/Users/stevenbr...')
+#2 /Users/stevenbrooks/Local Sites/earbuddy/app/public/index.php(17): require('/Users/stevenbr...')
+#3 {main}
+  thrown in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php on line 8
+[01-May-2024 13:31:08 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php:8
+Stack trace:
+#0 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-blog-header.php(19): require_once('/Users/stevenbr...')
+#2 /Users/stevenbrooks/Local Sites/earbuddy/app/public/index.php(17): require('/Users/stevenbr...')
+#3 {main}
+  thrown in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php on line 8
+[01-May-2024 13:32:59 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php:8
+Stack trace:
+#0 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-blog-header.php(19): require_once('/Users/stevenbr...')
+#2 /Users/stevenbrooks/Local Sites/earbuddy/app/public/index.php(17): require('/Users/stevenbr...')
+#3 {main}
+  thrown in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php on line 8
+[01-May-2024 13:33:42 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php:8
+Stack trace:
+#0 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-blog-header.php(19): require_once('/Users/stevenbr...')
+#2 /Users/stevenbrooks/Local Sites/earbuddy/app/public/index.php(17): require('/Users/stevenbr...')
+#3 {main}
+  thrown in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php on line 8
+[01-May-2024 13:34:47 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php:9
+Stack trace:
+#0 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-blog-header.php(19): require_once('/Users/stevenbr...')
+#2 /Users/stevenbrooks/Local Sites/earbuddy/app/public/index.php(17): require('/Users/stevenbr...')
+#3 {main}
+  thrown in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php on line 9
+[01-May-2024 13:51:31 UTC] PHP Warning:  Array to string conversion in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/single.php on line 18
+[03-May-2024 08:22:55 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/functions.php on line 65
+[03-May-2024 08:22:56 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/functions.php on line 65
+[03-May-2024 08:22:57 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/functions.php on line 65
+[03-May-2024 08:22:57 UTC] PHP Warning:  Trying to access array offset on false in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[03-May-2024 08:22:57 UTC] PHP Warning:  Trying to access array offset on false in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[03-May-2024 08:46:26 UTC] PHP Warning:  Undefined array key 1 in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-links.php on line 12
+[03-May-2024 08:46:26 UTC] PHP Warning:  Undefined array key 2 in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-links.php on line 38
+[03-May-2024 08:47:07 UTC] PHP Warning:  Undefined array key 1 in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-links.php on line 11
+[03-May-2024 09:12:26 UTC] PHP Warning:  Undefined array key 1 in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-links.php on line 12
+[03-May-2024 09:13:10 UTC] PHP Warning:  Undefined array key 1 in /Users/stevenbrooks/Local Sites/earbuddy/app/public/wp-content/themes/earbuddy/page-team.php on line 11

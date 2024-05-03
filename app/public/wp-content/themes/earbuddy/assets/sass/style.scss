@@ -1,0 +1,612 @@
+/*
+Theme Name: Ear Buddy
+Theme URI: https://ear-buddy.co.uk/
+Author: Steven Brooks
+Author URI: https://brookscode.com/
+Description: The Ear Buddy theme is designed to make navigation across the site as easy as possible. It is vibrant and communicates a message of trust and tranquility to viewers.
+Requires at least: 6.4
+Tested up to: 6.5
+Requires PHP: 7.0
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: earbuddy
+Tags: entertainment, news, blog, grid-layout, one-column, custom-logo, custom-menu, 
+*/
+
+
+/*Inspo: https://www.anxietyuk.org.uk/ */
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+// Color Palette
+$primary: #00A2C9;
+$secondary: #50C878;
+$ink: #000100;
+$whitebody: #FFFFFD;
+$whitewash: #F6F6F6;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: min-content 1fr min-content;
+    background-color: $whitebody;
+    color: $ink;
+}
+
+.site-header, .site-main, .site-footer {
+    grid-column: span 4;
+
+    h1, h2, h1 a, h2 a {
+        font-family: "Oswald", sans-serif;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        letter-spacing: .5px;
+        width: fit-content;
+    }
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+    padding: 0 3rem;
+
+    @media(max-width: 800px) {
+        padding: 1rem;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 3rem;
+        margin: 3rem 0;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin: 2.5rem 0;
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 2rem 0;
+    }
+
+    // REMEMBER: PLAY AROUND WITH FONTS MORE LATER - MAKE PERFECT!
+    p {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        margin: 2.5rem 0;
+        letter-spacing: .5px;
+    }
+
+    ul {
+        margin: 2.5rem 0;
+    }
+
+    li {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        list-style: none;
+    }
+}
+
+.site-header {
+    grid-row: 1;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    h2 a {
+        color: $primary;
+    }
+
+    a {
+        color: $whitewash;
+    }
+
+    .top-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $ink;
+        color: $whitewash;
+        padding: 0 3rem;
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            margin-right: .5rem;
+        }
+
+        .logo h2 {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo h2 a {
+            font-size: 1.8rem;
+            margin-bottom: .35rem;
+        }
+
+        .main-nav {
+            width: 50%;
+        }
+
+        .main-nav ul {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .main-nav li {
+            padding: 2rem 0;
+            font-weight: bold;
+        }
+
+        .main-nav a:hover {
+            color: $secondary;
+            text-decoration: underline;
+            text-underline-offset: 5px;
+        }
+    }
+
+    .bottom-bar {
+        background-color: $primary;
+        padding: 0 3rem;
+
+        .bottom-nav {
+            width: 40%;
+        }
+
+        .bottom-nav ul {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .bottom-nav li {
+            padding: 1rem 0;
+            font-weight: bold;
+        }
+
+        .bottom-nav a:hover {
+            text-decoration: underline;
+            text-underline-offset: 5px;
+        }
+    }
+
+}
+
+.site-main {
+    position: relative;
+
+    .hero {
+        min-height: auto;
+        background-position: center center;
+    }
+
+    .hero .overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 1, 0, .2);
+    }
+
+    .hero-cta {
+        width: fit-content;
+        max-width: 550px;
+        background-color: $whitewash;
+        box-shadow: 3px 3px 10px $ink;
+        // border: 5px solid $ink;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .hero-cta h2 {
+        padding: 1rem;
+        margin: 0;
+        letter-spacing: 1px;
+        background-color: $primary;
+        color: $whitewash;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .hero-cta p {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        letter-spacing: .5px;
+        padding: 2rem;
+        margin: 0;
+        color: $ink;
+    }
+
+    .hero-cta button {
+        background-color: $primary;
+        color: $whitebody;
+        padding: .5rem 1rem;
+        margin: 0 1rem 1rem 1rem;
+        font-size: 1.3rem;
+        border: none;
+        border-radius: 50px;
+        box-shadow: 1px 1px 2px $ink;
+    }
+
+    .hero-cta button:hover {
+        background-color: $secondary;
+        box-shadow: 1px 1px 5px $ink;
+        color: $ink;
+        cursor: pointer;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0 2rem;
+        grid-auto-flow: dense;
+
+        > * {
+            grid-column: span 4;
+        }
+
+        .forminator-edit-module {
+            display: none;
+        }
+
+        .sidebar {
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px $ink;
+            background-color: $whitewash;
+            margin: 2.5rem 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        // HOME PAGE
+        .about-cards {
+            margin: 3rem 0 0;
+
+            @media (max-width: 975px) {
+                flex-direction: column;
+            }
+        }
+        
+        .about-cards .wp-block-column {
+            margin: 1rem;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px $ink;
+            // border: 5px solid $ink;
+            background-color: $whitewash;
+            color: $ink;
+        }
+
+        .about-cards h2 {
+            background-color: $primary;
+            color: $whitewash;
+            margin: 0;
+            padding: 1rem;
+            border-radius: 10px 10px 0 0;
+            letter-spacing: 1px;
+        }
+
+        .about-cards p {
+            padding: 1rem;
+        }
+        
+        .link-card {
+            grid-column: span 3;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px $ink;
+            // border: 5px solid $ink;
+            background-color: $whitewash;
+            margin: 2.5rem 0;
+
+            @media (max-width: 975px) {
+                grid-column: span 4;
+            }
+        }
+    
+        .link-card img {
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 5px 0 0 5px;
+
+            @media (max-width: 781px) {
+                width: 100%;
+                border-radius: 5px 5px 0 0;
+            }
+        }
+
+        .link-card h2 {
+            margin: 1rem 0;
+
+            @media (max-width: 781px) {
+                width: 100%;
+                text-align: center;
+                margin: -1rem 0 1rem;
+            }
+        }
+
+        .link-card p {
+            margin: 0 2rem 1rem 0;
+
+            @media (max-width: 781px) {
+                margin: 0 1rem;
+            }
+        }
+
+        .link-card .wp-block-buttons {
+            a {
+                background-color: $primary;
+                box-shadow: 1px 1px 2px $ink;
+            }
+
+            a:hover {
+                background-color: $secondary;
+                color: $ink;
+            }
+            
+            @media (max-width: 781px) {
+                justify-content: center;
+                margin: 1rem 0;
+            }
+        }
+
+        .sidebar:has(.email-sidebar) {
+            grid-column: 2 / span 2;
+            padding: 2rem 2rem 0;
+        }
+    
+        .sidebar:has(.home-sidebar) {
+            grid-column: 4;
+            height: fit-content;
+
+            @media (max-width: 975px) {
+                display: none;
+            }
+        }
+
+        .sidebar .widget:first-of-type {
+            border-radius: 10px 10px 0 0;
+        }
+
+        .sidebar p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .sidebar ul {
+            margin: 0 0 2rem 0;
+        }
+
+        .sidebar #block-8 ul li {
+            padding: .3rem 0;
+        }
+
+        .sidebar a {
+            color: $ink;
+        }
+
+
+        // FEEDBACK PAGE
+        .feedback-section {
+            grid-column: span 4;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .feedback-post {
+            background-color: $whitewash;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px #000100;
+            background-color: #F6F6F6;
+            margin: 2.5rem 1rem;
+            padding: 1rem;
+            width: 400px;
+        }
+
+        .feedback-post p {
+            margin: 1rem;
+        }
+
+        .sidebar:has(.feedback-form-sidebar) {
+            grid-column: 2 / span 2;
+            padding: 2rem;
+            margin-bottom: 5rem;
+        }
+
+        // LINKS PAGE
+        .sidebar:has(.links-sidebar) {
+            grid-column: span 4;
+            box-shadow: none;
+            background-color: $whitebody;
+            padding: 0 10rem;
+            text-align: left;
+        }
+
+
+        // FAQ PAGE
+        .faq-post {
+            // will need to toggle the <p> opening/closing upon <h2> click
+            grid-column: 2 / span 2;
+            background-color: $whitewash;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px #000100;
+            background-color: #F6F6F6;
+            margin: 2.5rem 0;
+            padding: 0 1rem;
+
+            @media (max-width: 800px) {
+                grid-column: span 4;
+                margin: 2rem 0;
+            }
+        }
+
+        .faq-post p {
+            display: none;
+        }
+
+        .faq-post p .show {
+            display: block !important;
+            background-color: red;
+        }
+
+        .sidebar:has(.faq-sidebar) {
+            grid-column: 2 / span 2;
+            padding: 2rem;
+            margin-bottom: 5rem;
+        }
+
+        // TEAM PAGE
+        .team-cards {
+            grid-column: span 4;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-bottom: 5rem;
+        }
+
+        .tm-card {
+            margin: 1rem;
+            background-color: $whitewash;
+            box-shadow: 2px 2px 5px $ink;
+            border-radius: 10px;
+            width: 400px;
+            min-width: 400px;
+        }
+
+        .tm-card .avatar {
+            width: 100%;
+            height: 300px;
+            background-size: cover;
+            background-position: center center;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .tm-card h2 {
+            background-color: $primary;
+            margin: 0;
+            padding: 1rem;
+        }
+
+        .tm-card button {
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+        .tm-card h2 a {
+            font-size: 2.5rem;
+            color: $whitewash;
+        }
+
+        .tm-card p {
+            margin: 0;
+            padding: 1rem;
+        }
+
+        // CONTACT PAGE
+        .forminator-guttenberg {
+            grid-column: 2 / span 2;
+
+            @media (max-width: 975px) {
+                grid-column: span 4;
+            }
+        }
+
+        // SINGLE PAGE
+        .tm-profile img {
+            width: 50%;
+            float: left;
+            margin: 2rem;
+        }
+
+        .tm-profile:not(img) {
+            margin-right: 2rem;
+        }
+
+        .error-404 {
+            text-align: center;
+        }
+
+    }
+
+}
+
+.site-footer {
+    grid-row: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $ink;
+    color: $whitewash;
+    padding: 1rem 3rem;
+
+    h4 a {
+        color: $primary;
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        letter-spacing: .5px;
+    }
+
+    a {
+        color: $whitewash;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logo img {
+        width: 30px;
+        height: 30px;
+        margin-right: .3rem;
+    }
+
+    .copyright {
+        width: 100%;
+    }
+
+    .footer-nav {
+        width: 100%;
+    }
+
+    .footer-nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

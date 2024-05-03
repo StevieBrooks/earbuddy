@@ -1,0 +1,2 @@
+[Fri May 03 12:06:51.801244 2024] [proxy_fcgi:error] [pid 1020:tid 123145450827776] [client 127.0.0.1:50110] AH01067: Failed to read FastCGI header
+[Fri May 03 12:06:51.802394 2024] [proxy_fcgi:error] [pid 1020:tid 123145450827776] (70014)End of file found: [client 127.0.0.1:50110] AH01075: Error dispatching request to :10019: 
