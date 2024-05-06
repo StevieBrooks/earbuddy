@@ -90,9 +90,9 @@
     .about-cards {
         margin: 3rem 0 0;
 
-        @media (max-width: 975px) {
-            flex-direction: column;
-        }
+        // @media (max-width: 975px) {
+        //     flex-direction: column;
+        // }
     }
     
     .about-cards .wp-block-column {
@@ -253,14 +253,15 @@
 
     // FAQ PAGE
     .faq-post {
-        // will need to toggle the <p> opening/closing upon <h2> click
-        grid-column: 2 / span 2;
+        // grid-column: 2 / span 2;
         background-color: $whitewash;
         border-radius: 10px;
         box-shadow: 3px 3px 10px #000100;
         background-color: #F6F6F6;
         margin: 2.5rem 0;
         padding: 0 1rem;
+        height: fit-content;
+        transition: .5s ease;
 
         @media (max-width: 800px) {
             grid-column: span 4;
@@ -268,13 +269,17 @@
         }
     }
 
+    .faq-post:hover {
+        cursor: pointer;
+        transform: translate(0, -.2rem);
+    }
+
     .faq-post p {
         display: none;
     }
 
-    .faq-post p .show {
+    .show {
         display: block !important;
-        background-color: red;
     }
 
     .sidebar:has(.faq-sidebar) {

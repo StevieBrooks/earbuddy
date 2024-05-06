@@ -16,7 +16,8 @@
 
             <?php 
                 $args = array(
-                    'category_name' => 'user-faqs'
+                    'category_name' => 'user-faqs',
+                    'order' => 'ASC'
                 );
 
                 $catQuery = new WP_Query($args);

@@ -263,11 +263,6 @@ a {
 .site-main .about-cards {
   margin: 3rem 0 0;
 }
-@media (max-width: 975px) {
-  .site-main .about-cards {
-    flex-direction: column;
-  }
-}
 .site-main .about-cards .wp-block-column {
   margin: 1rem;
   border-radius: 10px;
@@ -402,13 +397,14 @@ a {
   text-align: left;
 }
 .site-main .faq-post {
-  grid-column: 2/span 2;
   background-color: #F6F6F6;
   border-radius: 10px;
   box-shadow: 3px 3px 10px #000100;
   background-color: #F6F6F6;
   margin: 2.5rem 0;
   padding: 0 1rem;
+  height: fit-content;
+  transition: 0.5s ease;
 }
 @media (max-width: 800px) {
   .site-main .faq-post {
@@ -416,12 +412,15 @@ a {
     margin: 2rem 0;
   }
 }
+.site-main .faq-post:hover {
+  cursor: pointer;
+  transform: translate(0, -0.2rem);
+}
 .site-main .faq-post p {
   display: none;
 }
-.site-main .faq-post p .show {
+.site-main .show {
   display: block !important;
-  background-color: red;
 }
 .site-main .sidebar:has(.faq-sidebar) {
   grid-column: 2/span 2;
