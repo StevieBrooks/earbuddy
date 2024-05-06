@@ -69,291 +69,291 @@
         > * {
             grid-column: span 4;
         }
-
-        .forminator-edit-module {
-            display: none;
-        }
-
-        .sidebar {
-            border-radius: 10px;
-            box-shadow: 3px 3px 10px $ink;
-            background-color: $whitewash;
-            margin: 2.5rem 0;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-        }
-
-        // HOME PAGE
-        .about-cards {
-            margin: 3rem 0 0;
-
-            @media (max-width: 975px) {
-                flex-direction: column;
-            }
-        }
-        
-        .about-cards .wp-block-column {
-            margin: 1rem;
-            border-radius: 10px;
-            box-shadow: 3px 3px 10px $ink;
-            // border: 5px solid $ink;
-            background-color: $whitewash;
-            color: $ink;
-        }
-
-        .about-cards h2 {
-            background-color: $primary;
-            color: $whitewash;
-            margin: 0;
-            padding: 1rem;
-            border-radius: 10px 10px 0 0;
-            letter-spacing: 1px;
-        }
-
-        .about-cards p {
-            padding: 1rem;
-        }
-        
-        .link-card {
-            grid-column: span 3;
-            border-radius: 10px;
-            box-shadow: 3px 3px 10px $ink;
-            // border: 5px solid $ink;
-            background-color: $whitewash;
-            margin: 2.5rem 0;
-
-            @media (max-width: 975px) {
-                grid-column: span 4;
-            }
-        }
-    
-        .link-card img {
-            width: 400px;
-            height: 400px;
-            object-fit: cover;
-            border-radius: 5px 0 0 5px;
-
-            @media (max-width: 781px) {
-                width: 100%;
-                border-radius: 5px 5px 0 0;
-            }
-        }
-
-        .link-card h2 {
-            margin: 1rem 0;
-
-            @media (max-width: 781px) {
-                width: 100%;
-                text-align: center;
-                margin: -1rem 0 1rem;
-            }
-        }
-
-        .link-card p {
-            margin: 0 2rem 1rem 0;
-
-            @media (max-width: 781px) {
-                margin: 0 1rem;
-            }
-        }
-
-        .link-card .wp-block-buttons {
-            a {
-                background-color: $primary;
-                box-shadow: 1px 1px 2px $ink;
-            }
-
-            a:hover {
-                background-color: $secondary;
-                color: $ink;
-            }
-            
-            @media (max-width: 781px) {
-                justify-content: center;
-                margin: 1rem 0;
-            }
-        }
-
-        .sidebar:has(.email-sidebar) {
-            grid-column: 2 / span 2;
-            padding: 2rem 2rem 0;
-        }
-    
-        .sidebar:has(.home-sidebar) {
-            grid-column: 4;
-            height: fit-content;
-
-            @media (max-width: 975px) {
-                display: none;
-            }
-        }
-
-        .sidebar .widget:first-of-type {
-            border-radius: 10px 10px 0 0;
-        }
-
-        .sidebar p {
-            margin: 0;
-            padding: 0;
-        }
-
-        .sidebar ul {
-            margin: 0 0 2rem 0;
-        }
-
-        .sidebar #block-8 ul li {
-            padding: .3rem 0;
-        }
-
-        .sidebar a {
-            color: $ink;
-        }
-
-
-        // FEEDBACK PAGE
-        .feedback-section {
-            grid-column: span 4;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-
-        .feedback-post {
-            background-color: $whitewash;
-            border-radius: 10px;
-            box-shadow: 3px 3px 10px #000100;
-            background-color: #F6F6F6;
-            margin: 2.5rem 1rem;
-            padding: 1rem;
-            width: 400px;
-        }
-
-        .feedback-post p {
-            margin: 1rem;
-        }
-
-        .sidebar:has(.feedback-form-sidebar) {
-            grid-column: 2 / span 2;
-            padding: 2rem;
-            margin-bottom: 5rem;
-        }
-
-        // LINKS PAGE
-        .sidebar:has(.links-sidebar) {
-            grid-column: span 4;
-            box-shadow: none;
-            background-color: $whitebody;
-            padding: 0 10rem;
-            text-align: left;
-        }
-
-
-        // FAQ PAGE
-        .faq-post {
-            // will need to toggle the <p> opening/closing upon <h2> click
-            grid-column: 2 / span 2;
-            background-color: $whitewash;
-            border-radius: 10px;
-            box-shadow: 3px 3px 10px #000100;
-            background-color: #F6F6F6;
-            margin: 2.5rem 0;
-            padding: 0 1rem;
-
-            @media (max-width: 800px) {
-                grid-column: span 4;
-                margin: 2rem 0;
-            }
-        }
-
-        .faq-post p {
-            display: none;
-        }
-
-        .faq-post p .show {
-            display: block !important;
-            background-color: red;
-        }
-
-        .sidebar:has(.faq-sidebar) {
-            grid-column: 2 / span 2;
-            padding: 2rem;
-            margin-bottom: 5rem;
-        }
-
-        // TEAM PAGE
-        .team-cards {
-            grid-column: span 4;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            margin-bottom: 5rem;
-        }
-
-        .tm-card {
-            margin: 1rem;
-            background-color: $whitewash;
-            box-shadow: 2px 2px 5px $ink;
-            border-radius: 10px;
-            width: 400px;
-            min-width: 400px;
-        }
-
-        .tm-card .avatar {
-            width: 100%;
-            height: 300px;
-            background-size: cover;
-            background-position: center center;
-            border-radius: 10px 10px 0 0;
-        }
-
-        .tm-card h2 {
-            background-color: $primary;
-            margin: 0;
-            padding: 1rem;
-        }
-
-        .tm-card button {
-            position: relative;
-            left: 50%;
-            transform: translate(-50%, 0);
-        }
-
-        .tm-card h2 a {
-            font-size: 2.5rem;
-            color: $whitewash;
-        }
-
-        .tm-card p {
-            margin: 0;
-            padding: 1rem;
-        }
-
-        // CONTACT PAGE
-        .forminator-guttenberg {
-            grid-column: 2 / span 2;
-
-            @media (max-width: 975px) {
-                grid-column: span 4;
-            }
-        }
-
-        // SINGLE PAGE
-        .tm-profile img {
-            width: 50%;
-            float: left;
-            margin: 2rem;
-        }
-
-        .tm-profile:not(img) {
-            margin-right: 2rem;
-        }
-
-        .error-404 {
-            text-align: center;
-        }
-
     }
+
+    .forminator-edit-module {
+        display: none;
+    }
+
+    .sidebar {
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px $ink;
+        background-color: $whitewash;
+        margin: 2.5rem 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    // HOME PAGE
+    .about-cards {
+        margin: 3rem 0 0;
+
+        @media (max-width: 975px) {
+            flex-direction: column;
+        }
+    }
+    
+    .about-cards .wp-block-column {
+        margin: 1rem;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px $ink;
+        // border: 5px solid $ink;
+        background-color: $whitewash;
+        color: $ink;
+    }
+
+    .about-cards h2 {
+        background-color: $primary;
+        color: $whitewash;
+        margin: 0;
+        padding: 1rem;
+        border-radius: 10px 10px 0 0;
+        letter-spacing: 1px;
+    }
+
+    .about-cards p {
+        padding: 1rem;
+    }
+    
+    .link-card {
+        grid-column: span 3;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px $ink;
+        // border: 5px solid $ink;
+        background-color: $whitewash;
+        margin: 2.5rem 0;
+
+        @media (max-width: 975px) {
+            grid-column: span 4;
+        }
+    }
+
+    .link-card img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 5px 0 0 5px;
+
+        @media (max-width: 781px) {
+            width: 100%;
+            border-radius: 5px 5px 0 0;
+        }
+    }
+
+    .link-card h2 {
+        margin: 1rem 0;
+
+        @media (max-width: 781px) {
+            width: 100%;
+            text-align: center;
+            margin: -1rem 0 1rem;
+        }
+    }
+
+    .link-card p {
+        margin: 0 2rem 1rem 0;
+
+        @media (max-width: 781px) {
+            margin: 0 1rem;
+        }
+    }
+
+    .link-card .wp-block-buttons {
+        a {
+            background-color: $primary;
+            box-shadow: 1px 1px 2px $ink;
+        }
+
+        a:hover {
+            background-color: $secondary;
+            color: $ink;
+        }
+        
+        @media (max-width: 781px) {
+            justify-content: center;
+            margin: 1rem 0;
+        }
+    }
+
+    .sidebar:has(.email-sidebar) {
+        grid-column: 2 / span 2;
+        padding: 2rem 2rem 0;
+    }
+
+    .sidebar:has(.home-sidebar) {
+        grid-column: 4;
+        height: fit-content;
+
+        @media (max-width: 975px) {
+            display: none;
+        }
+    }
+
+    .sidebar .widget:first-of-type {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .sidebar p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .sidebar ul {
+        margin: 0 0 2rem 0;
+    }
+
+    .sidebar #block-8 ul li {
+        padding: .3rem 0;
+    }
+
+    .sidebar a {
+        color: $ink;
+    }
+
+
+    // FEEDBACK PAGE
+    .feedback-section {
+        grid-column: span 4;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .feedback-post {
+        background-color: $whitewash;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px #000100;
+        background-color: #F6F6F6;
+        margin: 2.5rem 1rem;
+        padding: 1rem;
+        width: 400px;
+    }
+
+    .feedback-post p {
+        margin: 1rem;
+    }
+
+    .sidebar:has(.feedback-form-sidebar) {
+        grid-column: 2 / span 2;
+        padding: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    // LINKS PAGE
+    .sidebar:has(.links-sidebar) {
+        grid-column: span 4;
+        box-shadow: none;
+        background-color: $whitebody;
+        padding: 0 10rem;
+        text-align: left;
+    }
+
+
+    // FAQ PAGE
+    .faq-post {
+        // will need to toggle the <p> opening/closing upon <h2> click
+        grid-column: 2 / span 2;
+        background-color: $whitewash;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px #000100;
+        background-color: #F6F6F6;
+        margin: 2.5rem 0;
+        padding: 0 1rem;
+
+        @media (max-width: 800px) {
+            grid-column: span 4;
+            margin: 2rem 0;
+        }
+    }
+
+    .faq-post p {
+        display: none;
+    }
+
+    .faq-post p .show {
+        display: block !important;
+        background-color: red;
+    }
+
+    .sidebar:has(.faq-sidebar) {
+        grid-column: 2 / span 2;
+        padding: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    // TEAM PAGE
+    .team-cards {
+        grid-column: span 4;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 5rem;
+    }
+
+    .tm-card {
+        margin: 1rem;
+        background-color: $whitewash;
+        box-shadow: 2px 2px 5px $ink;
+        border-radius: 10px;
+        width: 400px;
+        min-width: 400px;
+    }
+
+    .tm-card .avatar {
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .tm-card h2 {
+        background-color: $primary;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .tm-card button {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .tm-card h2 a {
+        font-size: 2.5rem;
+        color: $whitewash;
+    }
+
+    .tm-card p {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    // CONTACT PAGE
+    .forminator-guttenberg {
+        grid-column: 2 / span 2;
+
+        @media (max-width: 975px) {
+            grid-column: span 4;
+        }
+    }
+
+    // SINGLE PAGE
+    .tm-profile img {
+        width: 50%;
+        float: left;
+        margin: 2rem;
+    }
+
+    .tm-profile:not(img) {
+        margin-right: 2rem;
+    }
+
+    .error-404 {
+        text-align: center;
+    }
+
 
 }

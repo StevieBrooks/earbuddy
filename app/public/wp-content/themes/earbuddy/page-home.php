@@ -45,39 +45,14 @@
                 echo $split_content[2];
                 echo $split_content[3];
 
-                get_sidebar('email');
-
+                
                 echo $split_content[4];
                 echo $split_content[5];
                 echo $split_content[6];
+                echo $split_content[7];
+
+                get_sidebar('email');
             ?>
-
-            <?php 
-                $args = array(
-                    'category_name' => 'user-feedback'
-                );
-
-                $feedback = new WP_Query($args);
-                
-                if ($feedback->have_posts()) : 
-                    echo $split_content[7];
-            ?>
-                    <section class="feedback-section">
-
-                        <?php while ($feedback->have_posts()) : $feedback->the_post() ;?>
-                            <article class="feedback-post">
-                                <?php the_content(); ?>
-                                <?php the_time(get_option('date_format'));  ?>
-                            </article>
-                        <?php endwhile; ?>
-
-                    </section>
-                    <?php echo $split_content[8]; ?>
-            <?php else : ?>          
-                    <p>There is currently no feedback to display.</p>
-            <?php endif; ?>
-
-            <?php get_sidebar('feedback-form'); ?>
             
         </div>
 
