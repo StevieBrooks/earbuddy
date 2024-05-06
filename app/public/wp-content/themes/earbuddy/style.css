@@ -33,16 +33,50 @@ body {
   color: #000100;
 }
 
-.site-header, .site-main, .site-footer {
-  grid-column: span 4;
+.container {
+  max-width: 1500px;
+  margin: auto;
 }
-.site-header h1, .site-header h2, .site-header h1 a, .site-header h2 a, .site-main h1, .site-main h2, .site-main h1 a, .site-main h2 a, .site-footer h1, .site-footer h2, .site-footer h1 a, .site-footer h2 a {
+
+h1, h2, h1 a, h2 a {
   font-family: "Oswald", sans-serif;
 }
-.site-header ul, .site-main ul, .site-footer ul {
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 3rem 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 2.5rem 0;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin: 2.5rem 0;
+  letter-spacing: 0.5px;
+}
+
+ul {
   list-style: none;
 }
-.site-header a, .site-main a, .site-footer a {
+
+li {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+a {
   text-decoration: none;
   font-size: 1.2rem;
   line-height: 1.8rem;
@@ -50,48 +84,9 @@ body {
   width: fit-content;
 }
 
-.container {
-  max-width: 1500px;
-  margin: auto;
-  padding: 0 3rem;
-}
-@media (max-width: 800px) {
-  .container {
-    padding: 1rem;
-  }
-}
-.container h1 {
-  text-align: center;
-  font-size: 3rem;
-  margin: 3rem 0;
-}
-.container h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin: 2.5rem 0;
-}
-.container h4 {
-  text-align: center;
-  font-size: 1.5rem;
-  margin: 2rem 0;
-}
-.container p {
-  font-size: 1.2rem;
-  line-height: 1.8rem;
-  margin: 2.5rem 0;
-  letter-spacing: 0.5px;
-}
-.container ul {
-  margin: 2.5rem 0;
-}
-.container li {
-  font-size: 1.2rem;
-  line-height: 1.8rem;
-  list-style: none;
-}
-
 .site-header {
   grid-row: 1;
+  grid-column: span 4;
   position: sticky;
   top: 0;
   width: 100%;
@@ -166,6 +161,7 @@ body {
 
 .site-main {
   position: relative;
+  grid-column: span 4;
 }
 .site-main .hero {
   min-height: auto;
@@ -475,6 +471,7 @@ body {
   background-color: #000100;
   color: #F6F6F6;
   padding: 1rem 3rem;
+  grid-column: span 4;
 }
 .site-footer h4 a {
   color: #00A2C9;

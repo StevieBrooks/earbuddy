@@ -1,0 +1,82 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+// Color Palette
+$primary: #00A2C9;
+$secondary: #50C878;
+$ink: #000100;
+$whitebody: #FFFFFD;
+$whitewash: #F6F6F6;
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: min-content 1fr min-content;
+    background-color: $whitebody;
+    color: $ink;
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+    // padding: 0 3rem;
+}
+
+h1, h2, h1 a, h2 a {
+    font-family: "Oswald", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 3rem 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2.5rem 0;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+// REMEMBER: PLAY AROUND WITH FONTS MORE LATER - MAKE PERFECT!
+p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin: 2.5rem 0;
+    letter-spacing: .5px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    letter-spacing: .5px;
+    width: fit-content;
+}

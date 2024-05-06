@@ -1,0 +1,25 @@
+/*
+Theme Name: Ear Buddy
+Theme URI: https://ear-buddy.co.uk/
+Author: Steven Brooks
+Author URI: https://brookscode.com/
+Description: The Ear Buddy theme is designed to make navigation across the site as easy as possible. It is vibrant and communicates a message of trust and tranquility to viewers.
+Requires at least: 6.4
+Tested up to: 6.5
+Requires PHP: 7.0
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: earbuddy
+Tags: entertainment, news, blog, grid-layout, one-column, custom-logo, custom-menu, 
+*/
+
+
+/*Inspo: https://www.anxietyuk.org.uk/ */
+
+@import '_global.scss';
+@import '_header.scss';
+@import '_body.scss';
+@import '_footer.scss';
+
+
