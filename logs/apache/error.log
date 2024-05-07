@@ -122,3 +122,13 @@ AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
 AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
 [Mon May 06 13:17:28.679314 2024] [mpm_event:notice] [pid 756:tid 4686732800] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
 [Mon May 06 13:17:28.680110 2024] [core:notice] [pid 756:tid 4686732800] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Mon May 06 16:03:32.931296 2024] [mpm_event:notice] [pid 756:tid 4686732800] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue May 07 11:33:43.370642 2024] [mpm_event:notice] [pid 2349:tid 4687654400] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue May 07 11:33:43.371401 2024] [core:notice] [pid 2349:tid 4687654400] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'
+[Tue May 07 12:15:44.209445 2024] [mpm_event:notice] [pid 2349:tid 4687654400] AH00491: caught SIGTERM, shutting down
+AH00557: httpd: apr_sockaddr_info_get() failed for Stevens-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue May 07 13:37:24.162113 2024] [mpm_event:notice] [pid 689:tid 4494593536] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue May 07 13:37:24.162894 2024] [core:notice] [pid 689:tid 4494593536] AH00094: Command line: '/Users/stevenbrooks/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/stevenbrooks/Library/Application Support/Local/run/eD5NPEBCw/conf/apache/apache2.conf'

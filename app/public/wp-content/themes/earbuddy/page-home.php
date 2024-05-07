@@ -37,19 +37,20 @@
 
         <div class="container">
             <?php 
-                $content = get_the_content();
-                $split_content = explode('split-here', $content);
+                // $content = get_the_content();
+                // $split_content = explode('split-here', $content);
 
-                echo $split_content[0];
-                echo $split_content[1];
-                echo $split_content[2];
-                echo $split_content[3];
+                // echo $split_content[0];
+                // echo $split_content[1];
+                // echo $split_content[2];
+                // echo $split_content[3];
 
                 
-                echo $split_content[4];
-                echo $split_content[5];
-                echo $split_content[6];
-                echo $split_content[7];
+                // echo $split_content[4];
+                // echo $split_content[5];
+                // echo $split_content[6];
+                // echo $split_content[7];
+                the_content();
 
                 get_sidebar('email');
             ?>
