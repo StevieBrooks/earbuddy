@@ -24,6 +24,23 @@
                         <p><?php echo $bio; ?></p>
                     </article>
                 <?php endif; ?>
+                
+                <?php if ( $post->post_type === 'help-link') : 
+                    $name = get_field('hl_name');
+                    $image = get_field('hl_image');
+                    $bio = get_field('hl_bio');
+                    $link = get_field('hl_link');   
+                ?>
+                    <article class="hl-profile">
+                        <img src="<?php echo $image['url']; ?>" alt="">
+                        <h2><?php echo $name; ?></h2>
+                        <a href="<?php echo $link['url']; ?>" target="_blank">
+                            <button>Visit <?php echo $link['title']; ?></button>
+                        </a>
+                        <p><?php echo $bio; ?></p>
+                    </article>
+                <?php endif; ?>
+
             <?php endwhile; ?>
             
         </div>

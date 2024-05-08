@@ -119,6 +119,7 @@ a {
 .site-header .top-bar .logo h2 {
   display: flex;
   align-items: center;
+  margin: 0;
 }
 .site-header .top-bar .logo h2 a {
   font-size: 1.8rem;
@@ -251,15 +252,22 @@ a {
 .site-main .forminator-edit-module {
   display: none;
 }
+.site-main .forminator-field label {
+  text-align: left;
+}
 .site-main .sidebar {
   border-radius: 10px;
   box-shadow: 3px 3px 10px #000100;
   background-color: #F6F6F6;
-  margin: 2.5rem 0;
+  margin: 2.5rem 0 5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+.site-main .sidebar:has(.email-sidebar, .contact-sidebar, .faq-sidebar) {
+  grid-column: 2/span 2;
+  padding: 2rem 2rem 0;
 }
 .site-main .intro-para {
   margin: 0 10rem 0;
@@ -281,10 +289,6 @@ a {
 .site-main .about-cards .wp-block-column:hover {
   transform: translate(0, -0.5rem);
   box-shadow: 3px 3px 10px #000100;
-}
-.site-main .about-cards .wp-block-column:hover h2 {
-  background-color: #50C878;
-  color: #000100;
 }
 .site-main .about-cards h2 {
   background-color: #00A2C9;
@@ -343,36 +347,21 @@ a {
   flex-wrap: nowrap;
   height: 400px;
 }
-.site-main .sidebar:has(.email-sidebar) {
-  grid-column: 2/span 2;
-  padding: 2rem 2rem 0;
+.site-main .contact-cta {
+  margin: 0 10rem 1rem;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
 }
-.site-main .sidebar:has(.home-sidebar) {
-  grid-column: 4;
-  height: fit-content;
+.site-main .contact-cta a {
+  color: #50C878;
+  font-weight: bold;
 }
-@media (max-width: 975px) {
-  .site-main .sidebar:has(.home-sidebar) {
-    display: none;
-  }
+.site-main .links-cta {
+  margin: 0 10rem 1rem;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
 }
-.site-main .sidebar .widget:first-of-type {
-  border-radius: 10px 10px 0 0;
-}
-.site-main .sidebar p {
-  margin: 0;
-  padding: 0;
-}
-.site-main .sidebar ul {
-  margin: 0 0 2rem 0;
-}
-.site-main .sidebar #block-8 ul li {
-  padding: 0.3rem 0;
-}
-.site-main .sidebar a {
-  color: #000100;
-}
-.site-main .link-card {
+.site-main .hl-card {
   grid-column: span 3;
   border-radius: 10px;
   box-shadow: 3px 3px 10px #000100;
@@ -380,64 +369,39 @@ a {
   margin: 2.5rem 0;
 }
 @media (max-width: 975px) {
-  .site-main .link-card {
+  .site-main .hl-card {
     grid-column: span 4;
   }
 }
-.site-main .link-card img {
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 5px 0 0 5px;
+.site-main .hl-card .hl-image {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px 10px 0 0;
 }
-@media (max-width: 781px) {
-  .site-main .link-card img {
-    width: 100%;
-    border-radius: 5px 5px 0 0;
-  }
-}
-.site-main .link-card h2 {
+.site-main .hl-card h2 {
   margin: 1rem 0;
 }
 @media (max-width: 781px) {
-  .site-main .link-card h2 {
+  .site-main .hl-card h2 {
     width: 100%;
     text-align: center;
     margin: -1rem 0 1rem;
   }
 }
-.site-main .link-card p {
+.site-main .hl-card p {
   margin: 0 2rem 1rem 0;
 }
 @media (max-width: 781px) {
-  .site-main .link-card p {
+  .site-main .hl-card p {
     margin: 0 1rem;
   }
 }
-.site-main .link-card .wp-block-buttons a {
-  background-color: #00A2C9;
-  box-shadow: 1px 1px 2px #000100;
-}
-.site-main .link-card .wp-block-buttons a:hover {
-  background-color: #50C878;
-  color: #000100;
-}
-@media (max-width: 781px) {
-  .site-main .link-card .wp-block-buttons {
-    justify-content: center;
-    margin: 1rem 0;
-  }
-}
-.site-main .sidebar:has(.links-sidebar) {
-  grid-column: span 4;
-  box-shadow: none;
-  background-color: #FFFFFD;
-  padding: 0 10rem;
-  text-align: left;
-}
 .site-main .faq-post {
+  grid-column: 2/span 2;
   background-color: #F6F6F6;
-  border-radius: 10px;
+  border-radius: 100px;
   box-shadow: 3px 3px 10px #000100;
   background-color: #F6F6F6;
   margin: 2.5rem 0;
@@ -455,16 +419,16 @@ a {
   cursor: pointer;
   transform: translate(0, -0.2rem);
 }
+.site-main .faq-post h2 {
+  margin: 2rem;
+}
 .site-main .faq-post p {
   display: none;
+  margin: 2rem;
+  text-align: center;
 }
 .site-main .show {
   display: block !important;
-}
-.site-main .sidebar:has(.faq-sidebar) {
-  grid-column: 2/span 2;
-  padding: 2rem;
-  margin-bottom: 5rem;
 }
 .site-main .team-cards {
   grid-column: span 4;
@@ -514,12 +478,12 @@ a {
     grid-column: span 4;
   }
 }
-.site-main .tm-profile img {
+.site-main .tm-profile img, .site-main .hl-profile img {
   width: 50%;
   float: left;
   margin: 2rem;
 }
-.site-main .tm-profile:not(img) {
+.site-main .tm-profile:not(img), .site-main .hl-profile:not(img) {
   margin-right: 2rem;
 }
 .site-main .error-404 {

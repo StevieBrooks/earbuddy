@@ -33,27 +33,6 @@ add_action('after_setup_theme', 'earbuddy_config');
 add_action('widgets_init', 'earbuddy_sidebars');
 
 function earbuddy_sidebars() {
-    register_sidebar(
-        array(
-            'name' => 'Home Sidebar',
-            'id' => 'sidebar-home',
-            'description' => 'Sidebar for home page. Can be used for several things including linking to other pages and for search widgets, etc.',
-            'class' => 'home-sidebar',
-            'before_widget' => '<div class="home-sidebar">',
-            'after_widget' => '</div>'
-        )
-        );
-
-        register_sidebar(
-            array(
-                'name' => 'Feedback Form Sidebar',
-                'id' => 'sidebar-feedback-form',
-                'description' => 'Sidebar containing feedback form.',
-                'class' => 'feedback-form-sidebar',
-                'before_widget' => '<div class="feedback-form-sidebar">',
-                'after_widget' => '</div>'
-            )
-            );
 
         register_sidebar(
             array(
@@ -68,11 +47,11 @@ function earbuddy_sidebars() {
 
         register_sidebar(
             array(
-                'name' => 'Links Sidebar',
-                'id' => 'sidebar-links',
-                'description' => 'Sidebar for links to other mental health resources.',
-                'class' => 'links-sidebar',
-                'before_widget' => '<div class="links-sidebar">',
+                'name' => 'Contact Sidebar',
+                'id' => 'sidebar-contact',
+                'description' => 'Sidebar for users to sget in touch.',
+                'class' => 'contact-sidebar',
+                'before_widget' => '<div class="contact-sidebar">',
                 'after_widget' => '</div>'
             )
             );

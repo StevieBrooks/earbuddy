@@ -15,7 +15,42 @@
                 }
             ?>
 
-            <?php get_sidebar('links'); ?>
+            <!--LINKS POSTS-->
+            <?php 
+                $args = array(
+                    'post_type' => 'help-link'
+                );
+
+                $linkQuery = new WP_Query($args);
+
+                if ( $linkQuery->have_posts() ) :
+            ?>
+                <section class="hl-cards">
+                    <?php while ( $linkQuery->have_posts() ) : $linkQuery->the_post() ; 
+                        $name = get_field('hl_name');
+                        $image = get_field('hl_image');
+                        $excerpt = get_field('hl_excerpt');
+                        $link = get_field('hl_link');
+                    ?>
+                        <article class="hl-card">
+                            <a href="<?php the_permalink(); ?>">
+                                <div class="hl-image" style="background-image: url('<?php echo $image['url']; ?>');">
+                                
+                                </div>
+                            </a>
+                            <div class="info">
+                                <h2><a href="<?php the_permalink(); ?>"><?php echo $name; ?></a></h2>
+                                    <button>
+                                        <a href="<?php echo $link['url']; ?>" target="_blank">Visit <?php echo $link['title']; ?></a>
+                                    </button>
+                                <p><?php echo $excerpt . "..."; ?></p>
+                            </div>
+                        </article>
+                    <?php endwhile; ?>
+                </section>
+            <?php else : ?>
+                <p>Apologies. There are currently no links to display.</p>
+            <?php endif; ?>
             
         </div>
     </main>
