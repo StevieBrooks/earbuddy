@@ -40,10 +40,12 @@
                             </a>
                             <div class="info">
                                 <h2><a href="<?php the_permalink(); ?>"><?php echo $name; ?></a></h2>
+                                <p><?php echo $excerpt . "..."; ?></p>
+                                <div class="container">
                                     <button>
                                         <a href="<?php echo $link['url']; ?>" target="_blank">Visit <?php echo $link['title']; ?></a>
                                     </button>
-                                <p><?php echo $excerpt . "..."; ?></p>
+                                </div>
                             </div>
                         </article>
                     <?php endwhile; ?>

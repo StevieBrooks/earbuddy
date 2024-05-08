@@ -18,10 +18,12 @@
                         <img src="<?php echo $avatar['url']; ?>" alt="">
                         <h2><?php echo $name; ?></h2>
                         <p><?php the_field('tm_position'); ?></p>
-                        <a href="<?php echo $social['url']; ?>" target="_blank">
-                            <button>I'm on <?php echo $social['title']; ?></button>
-                        </a>
                         <p><?php echo $bio; ?></p>
+                        <div class="container">
+                            <a href="<?php echo $social['url']; ?>" target="_blank">
+                                <button>I'm on <?php echo $social['title']; ?></button>
+                            </a>
+                        </div>
                     </article>
                 <?php endif; ?>
                 
@@ -34,10 +36,12 @@
                     <article class="hl-profile">
                         <img src="<?php echo $image['url']; ?>" alt="">
                         <h2><?php echo $name; ?></h2>
-                        <a href="<?php echo $link['url']; ?>" target="_blank">
-                            <button>Visit <?php echo $link['title']; ?></button>
-                        </a>
                         <p><?php echo $bio; ?></p>
+                        <div class="container">
+                            <a href="<?php echo $link['url']; ?>" target="_blank">
+                                <button>Visit <?php echo $link['title']; ?></button>
+                            </a>
+                        </div>
                     </article>
                 <?php endif; ?>
 
