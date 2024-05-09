@@ -22,15 +22,16 @@
 
                 $catQuery = new WP_Query($args);
 
-                if ($catQuery->have_posts()) : 
-                    while ($catQuery->have_posts()) : $catQuery->the_post() ;
-            ?>
-                <article class="faq-post">
-                    <h2><?php the_title(); ?></h2>
-                    <?php the_content(); ?>
-                </article>
-            <?php endwhile;
-                else : ?>
+                if ($catQuery->have_posts()) : ?>
+                    <section class="faq-posts">
+                        <?php while ($catQuery->have_posts()) : $catQuery->the_post() ; ?>
+                            <article class="faq-post">
+                                <h2><?php the_title(); ?></h2>
+                                <?php the_content(); ?>
+                            </article>
+                        <?php endwhile; ?>
+                    </section>
+                <?php else : ?>
                 <p>There are currently no FAQs to display.</p>
             <?php endif; ?>
 

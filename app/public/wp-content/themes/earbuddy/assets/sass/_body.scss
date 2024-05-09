@@ -72,6 +72,26 @@
         }
     }
 
+    .info-article .intro-para {
+        padding: 0 10rem;
+    }
+
+    .info-article .image-right {
+        float: right;
+        // width: 40%;
+        max-width: 50%;
+        margin: 2rem;
+        padding: 0 0 0 2rem;
+    }
+
+    .info-article .image-left {
+        float: left;
+        // width: 40%;
+        max-width: 50%;
+        margin: 2rem;
+        padding: 0 2rem 0 0;
+    }
+
     .forminator-edit-module {
         display: none;
     }
@@ -204,6 +224,9 @@
         height: 400px;
     }
 
+    .email-sidebar h2 {
+        margin: 0 0 2rem;
+    }
 
     // LINKS PAGE
 
@@ -260,6 +283,7 @@
         background-color: $primary;
         color: $whitewash;
         box-shadow: 1px 1px 2px $ink;
+        font-size: 1.5rem;
     }
 
     .hl-profile a {
@@ -285,21 +309,19 @@
 
 
     // FAQ PAGE
-    .faq-post {
+    .faq-posts {
+        margin: 3rem 0 2.5rem;
         grid-column: 2 / span 2;
+    }
+    .faq-post {
         background-color: $whitewash;
         border-radius: 100px;
         box-shadow: 3px 3px 10px #000100;
         background-color: #F6F6F6;
-        margin: 2.5rem 0;
-        padding: 0 1rem;
+        margin: 0 auto 2.5rem;
+        padding: .5rem;
         height: fit-content;
         transition: .5s ease;
-
-        @media (max-width: 800px) {
-            grid-column: span 4;
-            margin: 2rem 0;
-        }
     }
 
     .faq-post:hover {
@@ -311,10 +333,19 @@
         margin: 2rem;
     }
 
+    .faq-sidebar h2 {
+        margin: 0 0 2rem;
+    }
+
     .faq-post p {
         display: none;
         margin: 2rem;
         text-align: center;
+    }
+
+    .faq-post a {
+        color: $secondary;
+        font-weight: bold;
     }
 
     .show {
@@ -327,7 +358,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin-bottom: 5rem;
+        margin: 3rem 0 5rem;
     }
 
     .tm-card {
@@ -363,7 +394,7 @@
         color: $whitewash;
     }
 
-    .tm-card button {
+    .tm-card button, .tm-profile button {
         position: relative;
         left: 50%;
         transform: translate(-50%, 0);
@@ -374,11 +405,18 @@
         background-color: $primary;
         box-shadow: 1px 1px 2px $ink;
         width: fit-content;
+        color: $whitewash;
+        font-size: 1.5rem;
     }
 
-    .tm-card button:hover {
+    .tm-profile a {
+        margin: 1rem auto;
+    }
+
+    .tm-card button:hover, .tm-profile button:hover {
         box-shadow: 1px 1px 5px $ink;
         background-color: $secondary;
+        cursor: pointer;
     }
 
     .tm-card button:hover a {
@@ -400,13 +438,17 @@
         font-weight: bold;
     }
 
+    .tm-profile p:first-of-type {
+        display: none;
+    }
+
     // CONTACT PAGE
     .forminator-guttenberg {
         grid-column: 2 / span 2;
+    }
 
-        @media (max-width: 975px) {
-            grid-column: span 4;
-        }
+    .contact-sidebar h2 {
+        margin: 0 0 2rem;
     }
 
     // SINGLE PAGE

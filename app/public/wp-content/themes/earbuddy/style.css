@@ -249,6 +249,21 @@ a {
 .site-main .container > * {
   grid-column: span 4;
 }
+.site-main .info-article .intro-para {
+  padding: 0 10rem;
+}
+.site-main .info-article .image-right {
+  float: right;
+  max-width: 50%;
+  margin: 2rem;
+  padding: 0 0 0 2rem;
+}
+.site-main .info-article .image-left {
+  float: left;
+  max-width: 50%;
+  margin: 2rem;
+  padding: 0 2rem 0 0;
+}
 .site-main .forminator-edit-module {
   display: none;
 }
@@ -351,6 +366,9 @@ a {
   flex-wrap: nowrap;
   height: 400px;
 }
+.site-main .email-sidebar h2 {
+  margin: 0 0 2rem;
+}
 .site-main .hl-cards {
   grid-column: span 4;
   display: flex;
@@ -397,6 +415,7 @@ a {
   background-color: #00A2C9;
   color: #F6F6F6;
   box-shadow: 1px 1px 2px #000100;
+  font-size: 1.5rem;
 }
 .site-main .hl-profile a {
   margin: 1rem auto;
@@ -415,22 +434,19 @@ a {
   padding: 1rem 1rem 0 1rem;
   text-align: center;
 }
-.site-main .faq-post {
+.site-main .faq-posts {
+  margin: 3rem 0 2.5rem;
   grid-column: 2/span 2;
+}
+.site-main .faq-post {
   background-color: #F6F6F6;
   border-radius: 100px;
   box-shadow: 3px 3px 10px #000100;
   background-color: #F6F6F6;
-  margin: 2.5rem 0;
-  padding: 0 1rem;
+  margin: 0 auto 2.5rem;
+  padding: 0.5rem;
   height: fit-content;
   transition: 0.5s ease;
-}
-@media (max-width: 800px) {
-  .site-main .faq-post {
-    grid-column: span 4;
-    margin: 2rem 0;
-  }
 }
 .site-main .faq-post:hover {
   cursor: pointer;
@@ -439,10 +455,17 @@ a {
 .site-main .faq-post h2 {
   margin: 2rem;
 }
+.site-main .faq-sidebar h2 {
+  margin: 0 0 2rem;
+}
 .site-main .faq-post p {
   display: none;
   margin: 2rem;
   text-align: center;
+}
+.site-main .faq-post a {
+  color: #50C878;
+  font-weight: bold;
 }
 .site-main .show {
   display: block !important;
@@ -452,7 +475,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-bottom: 5rem;
+  margin: 3rem 0 5rem;
 }
 .site-main .tm-card {
   margin: 1rem;
@@ -482,7 +505,7 @@ a {
 .site-main .tm-card a {
   color: #F6F6F6;
 }
-.site-main .tm-card button {
+.site-main .tm-card button, .site-main .tm-profile button {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
@@ -493,10 +516,16 @@ a {
   background-color: #00A2C9;
   box-shadow: 1px 1px 2px #000100;
   width: fit-content;
+  color: #F6F6F6;
+  font-size: 1.5rem;
 }
-.site-main .tm-card button:hover {
+.site-main .tm-profile a {
+  margin: 1rem auto;
+}
+.site-main .tm-card button:hover, .site-main .tm-profile button:hover {
   box-shadow: 1px 1px 5px #000100;
   background-color: #50C878;
+  cursor: pointer;
 }
 .site-main .tm-card button:hover a {
   color: #000100;
@@ -513,13 +542,14 @@ a {
   font-size: 1.5rem;
   font-weight: bold;
 }
+.site-main .tm-profile p:first-of-type {
+  display: none;
+}
 .site-main .forminator-guttenberg {
   grid-column: 2/span 2;
 }
-@media (max-width: 975px) {
-  .site-main .forminator-guttenberg {
-    grid-column: span 4;
-  }
+.site-main .contact-sidebar h2 {
+  margin: 0 0 2rem;
 }
 .site-main .tm-profile img, .site-main .hl-profile img {
   width: 50%;
@@ -542,6 +572,7 @@ a {
   color: #F6F6F6;
   padding: 1rem 3rem;
   grid-column: span 4;
+  margin-top: 5rem;
 }
 .site-footer h4 a {
   color: #00A2C9;
