@@ -26,7 +26,10 @@
                     <section class="faq-posts">
                         <?php while ($catQuery->have_posts()) : $catQuery->the_post() ; ?>
                             <article class="faq-post">
-                                <h2><?php the_title(); ?></h2>
+                                <div class="question">
+                                    <h2><?php the_title(); ?></h2>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div>
                                 <?php the_content(); ?>
                             </article>
                         <?php endwhile; ?>

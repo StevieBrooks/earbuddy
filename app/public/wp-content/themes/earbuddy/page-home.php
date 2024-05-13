@@ -18,18 +18,19 @@
         <section class="hero" style="background-image: url('<?php echo $hero_image; ?>');">
             <div class="overlay" style="min-height: <?php echo $hero_height; ?>px;">
                 <div class="container">
-                    <div class="hero-cta">
-                        <h2><?php echo $hero_title; ?></h2>
-                        <p><?php echo $hero_paragraph; ?></p>
-                        <a href="<?php echo $hero_btn1_link; ?>" target="_blank">
-                            <button><?php echo $hero_btn1_text; ?></button>
-                        </a>
-                        <a href="<?php echo $hero_btn2_link; ?>" target="_blank">
-                            <button><?php echo $hero_btn2_text; ?></button>
-                        </a>
-                        <a href="<?php echo $hero_btn3_link; ?>" target="_blank">
-                            <button><?php echo $hero_btn3_text; ?></button>
-                        </a>
+                    <div class="hero-cta"> 
+                        <?php if ( $hero_title && $hero_btn1_text ) : ?>
+                            <h2><?php echo $hero_title; ?></h2>
+                            <p><?php echo $hero_paragraph; ?></p>
+                            <a href="<?php echo $hero_btn1_link; ?>" target="_blank">
+                                <button><?php echo $hero_btn1_text; ?></button>
+                            </a>
+                            <a href="<?php echo $hero_btn2_link; ?>" target="_blank">
+                                <button><?php echo $hero_btn2_text; ?></button>
+                            </a>
+                        <?php else : ?>
+                            <?php get_sidebar( 'hero' ); ?>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>

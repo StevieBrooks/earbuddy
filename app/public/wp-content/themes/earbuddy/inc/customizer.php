@@ -106,32 +106,6 @@ function earbuddy_customizer( $wp_customize ) {
             'type' => 'url'
         ));
 
-        // Button 3 Text
-        $wp_customize->add_setting( 'set_hero_button_three_text', array(
-            'type' => 'theme_mod',
-            'default' => 'Button 3 Text',
-            'sanitize_callback' => 'sanitize_text_field'
-        ));
-
-        $wp_customize->add_control( 'set_hero_button_three_text', array(
-            'label' => 'Hero Button 3 Text',
-            'section' => 'sec_hero',
-            'type' => 'text'
-        ));
-
-        // Button 3 Link
-        $wp_customize->add_setting( 'set_hero_button_three_link', array(
-            'type' => 'theme_mod',
-            'default' => 'Button 3 Link',
-            'sanitize_callback' => 'esc_url_raw'
-        ));
-
-        $wp_customize->add_control( 'set_hero_button_three_link', array(
-            'label' => 'Hero Button 3 Link',
-            'section' => 'sec_hero',
-            'type' => 'url'
-        ));
-
         // Min Height
         $wp_customize->add_setting( 'set_hero_height', array(
             'type' => 'theme_mod',

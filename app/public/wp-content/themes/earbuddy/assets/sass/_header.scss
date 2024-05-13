@@ -117,6 +117,22 @@
         .bottom-nav li:hover .sub-menu {
             display: flex;
         }
+
+        .menu-item-570 a {
+            box-shadow: 2px 2px 5px $ink;
+            padding: .5rem 1rem;
+            background-color: $whitewash;
+            color: $ink;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: .5s ease;
+        }
+
+        .menu-item-570 a:hover {
+            background-color: $secondary;
+            color: $ink;
+            text-decoration: none;
+        }
         
     }
 

@@ -13,7 +13,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: earbuddy
 Tags: entertainment, news, blog, grid-layout, one-column, custom-logo, custom-menu, 
 */
-/*Inspo: https://www.anxietyuk.org.uk/ */
+/*Inspo: https://www.anxietyuk.org.uk/
+https://www.zendesk.co.uk/blog/the-best-faq-page-examples-and-how-to-make-your-own/
+*/
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap");
 * {
@@ -184,6 +186,20 @@ a {
 .site-header .bottom-bar .bottom-nav li:hover .sub-menu {
   display: flex;
 }
+.site-header .bottom-bar .menu-item-570 a {
+  box-shadow: 2px 2px 5px #000100;
+  padding: 0.5rem 1rem;
+  background-color: #F6F6F6;
+  color: #000100;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+.site-header .bottom-bar .menu-item-570 a:hover {
+  background-color: #50C878;
+  color: #000100;
+  text-decoration: none;
+}
 
 .site-main {
   position: relative;
@@ -201,11 +217,24 @@ a {
 }
 .site-main .hero-cta {
   width: fit-content;
-  max-width: 550px;
+  max-width: 600px;
   background-color: #F6F6F6;
   box-shadow: 3px 3px 10px #000100;
   border-radius: 10px;
   text-align: center;
+}
+.site-main .hero-cta:has(.sidebar) {
+  background-color: rgba(0, 1, 0, 0);
+  box-shadow: none;
+}
+.site-main .hero-cta .sidebar {
+  margin: 0;
+}
+.site-main .hero-cta .forminator-field {
+  display: flex;
+}
+.site-main .hero-cta .forminator-field .forminator-radio {
+  margin: 0;
 }
 .site-main .hero-cta h2 {
   padding: 1rem;
@@ -309,6 +338,10 @@ a {
   transform: translate(0, -0.5rem);
   box-shadow: 3px 3px 10px #000100;
 }
+.site-main .about-cards .wp-block-column:hover h2 {
+  background-color: #50C878;
+  color: #000100;
+}
 .site-main .about-cards h2 {
   background-color: #00A2C9;
   color: #F6F6F6;
@@ -360,14 +393,44 @@ a {
 .site-main .benefits-list span {
   font-weight: bold;
 }
-.site-main .screenshot-gallery {
-  margin-top: 2.5rem;
-  display: flex;
-  flex-wrap: nowrap;
-  height: 400px;
+.site-main .bwg_container {
+  box-shadow: 2px 2px 5px #000100;
+  margin-top: 3rem;
 }
 .site-main .email-sidebar h2 {
   margin: 0 0 2rem;
+}
+.site-main .ear-columns {
+  margin: 3rem 0 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.site-main .ear-columns .ear-column {
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #000100;
+  background-color: #F6F6F6;
+  color: #000100;
+  transition: 0.5s ease;
+}
+.site-main .ear-columns .ear-column:hover {
+  transform: translate(0, -0.5rem);
+  box-shadow: 3px 3px 10px #000100;
+}
+.site-main .ear-columns h2 {
+  background-color: #00A2C9;
+  color: #F6F6F6;
+  margin: 0;
+  padding: 1rem;
+  border-radius: 10px 10px 0 0;
+  letter-spacing: 1px;
+  transition: 0.5s ease;
+}
+.site-main .ear-columns p {
+  padding: 1rem;
+  margin: 0;
+  text-align: left;
 }
 .site-main .hl-cards {
   grid-column: span 4;
@@ -439,20 +502,25 @@ a {
   grid-column: 2/span 2;
 }
 .site-main .faq-post {
-  background-color: #F6F6F6;
-  border-radius: 100px;
-  box-shadow: 3px 3px 10px #000100;
-  background-color: #F6F6F6;
-  margin: 0 auto 2.5rem;
   padding: 0.5rem;
   height: fit-content;
   transition: 0.5s ease;
+  border-bottom: 0.5px solid #00A2C9;
 }
 .site-main .faq-post:hover {
   cursor: pointer;
-  transform: translate(0, -0.2rem);
+}
+.site-main .faq-post .question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .site-main .faq-post h2 {
+  margin: 2rem 0 2rem 2rem;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.site-main .faq-post .fa-solid {
   margin: 2rem;
 }
 .site-main .faq-sidebar h2 {
@@ -461,7 +529,7 @@ a {
 .site-main .faq-post p {
   display: none;
   margin: 2rem;
-  text-align: center;
+  text-align: left;
 }
 .site-main .faq-post a {
   color: #50C878;
@@ -469,6 +537,9 @@ a {
 }
 .site-main .show {
   display: block !important;
+}
+.site-main .flip {
+  transform: rotate(180deg);
 }
 .site-main .team-cards {
   grid-column: span 4;
@@ -574,6 +645,11 @@ a {
   grid-column: span 4;
   margin-top: 5rem;
 }
+.site-footer h4 {
+  margin: 0;
+  position: relative;
+  bottom: 0.25rem;
+}
 .site-footer h4 a {
   color: #00A2C9;
 }
@@ -581,14 +657,18 @@ a {
   font-size: 1.2rem;
   line-height: 1.8rem;
   letter-spacing: 0.5px;
+  margin: 0;
 }
 .site-footer a {
   color: #F6F6F6;
 }
 .site-footer .logo {
   display: flex;
-  align-items: center;
   width: 100%;
+}
+.site-footer .logo .custom-logo-link {
+  display: flex;
+  align-items: center;
 }
 .site-footer .logo img {
   width: 30px;

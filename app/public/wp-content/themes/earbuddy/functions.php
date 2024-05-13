@@ -66,4 +66,15 @@ function earbuddy_sidebars() {
                 'after_widget' => '</div>'
             )
             );
+
+        register_sidebar(
+            array(
+                'name' => 'Hero Sidebar',
+                'id' => 'sidebar-hero',
+                'description' => 'Sidebar for hero poll.',
+                'class' => 'hero-sidebar',
+                'before_widget' => '<div class="hero-sidebar">',
+                'after_widget' => '</div>'
+            )
+            );
 }
