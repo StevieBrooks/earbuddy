@@ -230,12 +230,6 @@ a {
 .site-main .hero-cta .sidebar {
   margin: 0;
 }
-.site-main .hero-cta .forminator-field {
-  display: flex;
-}
-.site-main .hero-cta .forminator-field .forminator-radio {
-  margin: 0;
-}
 .site-main .hero-cta h2 {
   padding: 1rem;
   margin: 0;
@@ -314,8 +308,6 @@ a {
   padding: 2rem 2rem 0;
 }
 .site-main .intro-para {
-  margin: 0 10rem 0;
-  text-align: center;
   font-size: 1.5rem;
   line-height: 2.25rem;
 }

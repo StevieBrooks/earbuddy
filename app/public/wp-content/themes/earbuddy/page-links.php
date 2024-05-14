@@ -31,20 +31,23 @@
                         $image = get_field('hl_image');
                         $excerpt = get_field('hl_excerpt');
                         $link = get_field('hl_link');
+                        $permalink = get_permalink();
                     ?>
                         <article class="hl-card">
-                            <a href="<?php the_permalink(); ?>">
+                            <a href="<?php echo str_contains($permalink, 'coming-soon') ? null : $permalink ; ?>">
                                 <div class="hl-image" style="background-image: url('<?php echo $image['url']; ?>');">
                                 
                                 </div>
                             </a>
                             <div class="info">
-                                <h2><a href="<?php the_permalink(); ?>"><?php echo $name; ?></a></h2>
+                                <h2><a href="<?php echo str_contains($permalink, 'coming-soon') ? null : $permalink ; ?>"><?php echo $name; ?></a></h2>
                                 <p><?php echo $excerpt . "..."; ?></p>
                                 <div class="container">
-                                    <button>
-                                        <a href="<?php echo $link['url']; ?>" target="_blank">Visit <?php echo $link['title']; ?></a>
-                                    </button>
+                                    <?php if ( ! str_contains($permalink, 'coming-soon') ) : ?>
+                                        <button>
+                                            <a href="<?php echo $link['url']; ?>" target="_blank">Visit <?php echo $link['title']; ?></a>
+                                        </button>
+                                    <?php endif; ?>
                                 </div>
                             </div>
                         </article>
