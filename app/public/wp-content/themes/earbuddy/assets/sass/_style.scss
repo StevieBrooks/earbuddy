@@ -19,9 +19,15 @@ Tags: entertainment, news, blog, grid-layout, one-column, custom-logo, custom-me
 https://www.zendesk.co.uk/blog/the-best-faq-page-examples-and-how-to-make-your-own/
 */
 
-@import '_global.scss';
-@import '_header.scss';
-@import '_body.scss';
-@import '_footer.scss';
+@import 'global';
+@import 'header';
+@import 'body';
+@import 'footer';
+@import 'about-page';
+@import 'links-page';
+@import 'faq-page';
+@import 'team-page';
+@import 'contact-page';
+@import 'single';
 
 

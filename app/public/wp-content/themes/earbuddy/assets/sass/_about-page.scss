@@ -1,0 +1,84 @@
+.site-main {
+
+    .about-intro, .eb-intro {
+        margin: 5rem 0 5rem;
+    }
+
+    .eb-intro {
+        padding: 0 0 5rem;
+        border-bottom: 10px solid $primary;
+    }
+
+    .about-intro div, .eb-intro div {
+        width: 80%;
+        margin: auto;
+    }
+
+    .about-intro h1, .eb-intro h1 {
+        margin: 0 0 5rem;
+    }
+
+    .about-intro figure {
+        padding: 0 0 1rem 2rem;
+        float: right;
+        width: 300px;
+    }
+
+    .eb-intro figure {
+        padding: 0 2rem 1rem 0;
+        float: left;
+        width: 300px;
+    }
+
+    .about-intro img {
+        border-radius: 30% 70% 29% 71% / 30% 30% 70% 70%;
+        box-shadow: 1px 1px 3px $ink;
+    }
+
+    .eb-intro img {
+        border-radius: 72% 28% 14% 86% / 44% 62% 38% 56% ;
+        box-shadow: 1px 1px 3px $ink;
+    }
+
+    .ear-columns {
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .ear-columns .ear-column {
+        margin: 1rem;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px $ink;
+        background-color: $whitewash;
+        color: $ink;
+        transition: .5s ease;
+    }
+    
+    .ear-columns .ear-column:hover {
+        transform: translate(0, -.5rem);
+        box-shadow: 3px 3px 10px $ink;
+    }
+
+    .ear-columns .ear-column:hover h2 {
+        background-color: $secondary;
+        color: $ink;
+    }
+
+    .ear-columns h2 {
+        background-color: $primary;
+        color: $whitewash;
+        margin: 0;
+        padding: 1rem;
+        border-radius: 10px 10px 0 0;
+        letter-spacing: 1px;
+        transition: .5s ease;
+    }
+
+    .ear-columns p {
+        padding: 1rem;
+        margin: 0;
+        text-align: left;
+    }
+}

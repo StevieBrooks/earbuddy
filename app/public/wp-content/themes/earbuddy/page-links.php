@@ -3,8 +3,6 @@
     <main class="site-main">
         <div class="container">
 
-            <h1><?php echo the_title(); ?></h1>
-
             <?php 
                 $content = get_the_content(); 
                 if ($content) {

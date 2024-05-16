@@ -1,0 +1,56 @@
+.site-main {
+
+    .faq-posts {
+        margin: 3rem 0 2.5rem;
+        grid-column: 2 / span 2;
+    }
+    .faq-post {
+        padding: .5rem;
+        height: fit-content;
+        transition: .5s ease;
+        border-bottom: .5px solid $primary;
+    }
+    
+    .faq-post:hover {
+        cursor: pointer;
+    }
+
+    .faq-post .question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .faq-post h2 {
+        margin: 2rem 0 2rem 2rem;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .faq-post .fa-solid {
+        margin: 2rem;
+    }
+
+    .faq-sidebar h2 {
+        margin: 0 0 2rem;
+    }
+
+    .faq-post p {
+        display: none;
+        margin: 2rem;
+        text-align: left;
+    }
+
+    .faq-post a {
+        color: $secondary;
+        font-weight: bold;
+    }
+
+    .show {
+        display: block !important;
+    }
+
+    .flip {
+        transform: rotate(180deg);
+    }
+}
