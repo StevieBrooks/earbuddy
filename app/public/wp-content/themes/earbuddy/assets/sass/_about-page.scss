@@ -40,6 +40,10 @@
         box-shadow: 1px 1px 3px $ink;
     }
 
+    .lonely-intro img {
+        border-radius: 15% 85% 78% 22% / 77% 53% 47% 23%;
+    }
+
     .ear-columns {
         margin: 0;
         display: flex;
@@ -80,5 +84,35 @@
         padding: 1rem;
         margin: 0;
         text-align: left;
+    }
+
+    .info-article p:first-of-type {
+        margin: 0;
+    }
+
+    .info-article .image-right {
+        float: right;
+        width: 400px;
+        max-width: 50%;
+        margin: 2rem;
+        padding: 0 0 0 2rem;
+    }
+    
+    .info-article .image-right img {
+        border-radius: 15% 85% 78% 22% / 77% 53% 47% 23%;
+        box-shadow: 1px 1px 3px $ink;
+    }
+
+    .info-article .image-left {
+        float: left;
+        width: 400px;
+        max-width: 50%;
+        margin: 2rem;
+        padding: 0 2rem 0 0;
+    }
+       
+    .info-article .image-left img {
+        border-radius: 68% 32% 78% 22% / 26% 89% 11% 74%;
+        box-shadow: 1px 1px 3px $ink;
     }
 }

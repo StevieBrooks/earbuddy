@@ -272,23 +272,6 @@ a {
 .site-main .container > * {
   grid-column: span 4;
 }
-.site-main .info-article .intro-para {
-  padding: 0 10rem;
-}
-.site-main .info-article .image-right {
-  float: right;
-  width: 400px;
-  max-width: 50%;
-  margin: 2rem;
-  padding: 0 0 0 2rem;
-}
-.site-main .info-article .image-left {
-  float: left;
-  width: 400px;
-  max-width: 50%;
-  margin: 2rem;
-  padding: 0 2rem 0 0;
-}
 .site-main .forminator-edit-module {
   display: none;
 }
@@ -587,6 +570,9 @@ a {
   border-radius: 72% 28% 14% 86%/44% 62% 38% 56%;
   box-shadow: 1px 1px 3px #000100;
 }
+.site-main .lonely-intro img {
+  border-radius: 15% 85% 78% 22%/77% 53% 47% 23%;
+}
 .site-main .ear-columns {
   margin: 0;
   display: flex;
@@ -623,6 +609,31 @@ a {
   margin: 0;
   text-align: left;
 }
+.site-main .info-article p:first-of-type {
+  margin: 0;
+}
+.site-main .info-article .image-right {
+  float: right;
+  width: 400px;
+  max-width: 50%;
+  margin: 2rem;
+  padding: 0 0 0 2rem;
+}
+.site-main .info-article .image-right img {
+  border-radius: 15% 85% 78% 22%/77% 53% 47% 23%;
+  box-shadow: 1px 1px 3px #000100;
+}
+.site-main .info-article .image-left {
+  float: left;
+  width: 400px;
+  max-width: 50%;
+  margin: 2rem;
+  padding: 0 2rem 0 0;
+}
+.site-main .info-article .image-left img {
+  border-radius: 68% 32% 78% 22%/26% 89% 11% 74%;
+  box-shadow: 1px 1px 3px #000100;
+}
 
 .site-main .links-intro {
   margin: 5rem 0 5rem;
@@ -643,7 +654,7 @@ a {
 }
 .site-main .links-intro img {
   border-radius: 45% 55% 14% 86%/78% 62% 38% 22%;
-  box-shadow: 1px 1px 3px #00A2C9;
+  box-shadow: 1px 1px 3px #000100;
 }
 .site-main .hl-cards {
   grid-column: span 4;
@@ -711,8 +722,29 @@ a {
   text-align: center;
 }
 
+.site-main .faq-intro {
+  margin: 5rem 0 5rem;
+  padding: 0 0 5rem;
+  border-bottom: 10px solid #00A2C9;
+}
+.site-main .faq-intro div {
+  width: 80%;
+  margin: auto;
+}
+.site-main .faq-intro h1 {
+  margin: 0 0 5rem;
+}
+.site-main .faq-intro figure {
+  float: left;
+  width: 300px;
+  padding: 0 2rem 1rem 0;
+}
+.site-main .faq-intro img {
+  border-radius: 45% 55% 14% 86%/78% 62% 38% 22%;
+  box-shadow: 1px 1px 3px #000100;
+}
 .site-main .faq-posts {
-  margin: 3rem 0 2.5rem;
+  margin: 0 0 5rem;
   grid-column: 2/span 2;
 }
 .site-main .faq-post {
@@ -756,12 +788,33 @@ a {
   transform: rotate(180deg);
 }
 
+.site-main .team-intro {
+  margin: 5rem 0 5rem;
+  padding: 0 0 5rem;
+  border-bottom: 10px solid #00A2C9;
+}
+.site-main .team-intro div {
+  width: 80%;
+  margin: auto;
+}
+.site-main .team-intro h1 {
+  margin: 0 0 5rem;
+}
+.site-main .team-intro figure {
+  float: left;
+  width: 300px;
+  padding: 0 2rem 1rem 0;
+}
+.site-main .team-intro img {
+  border-radius: 45% 55% 14% 86%/78% 62% 38% 22%;
+  box-shadow: 1px 1px 3px #000100;
+}
 .site-main .team-cards {
   grid-column: span 4;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 3rem 0 5rem;
+  margin: 0 0 5rem;
 }
 .site-main .tm-card {
   margin: 1rem;

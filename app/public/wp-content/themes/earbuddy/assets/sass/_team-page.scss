@@ -1,11 +1,37 @@
 .site-main {
 
+    .team-intro {
+        margin: 5rem 0 5rem;
+        padding: 0 0 5rem;
+        border-bottom: 10px solid $primary;
+    }
+
+    .team-intro div {
+        width: 80%;
+        margin: auto;
+    }
+
+    .team-intro h1 {
+        margin: 0 0 5rem;
+    }
+
+    .team-intro figure {
+        float: left;
+        width: 300px;
+        padding: 0 2rem 1rem 0;
+    }
+
+    .team-intro img {
+        border-radius: 45% 55% 14% 86% / 78% 62% 38% 22%;
+        box-shadow: 1px 1px 3px $ink;
+    }
+
     .team-cards {
         grid-column: span 4;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin: 3rem 0 5rem;
+        margin: 0 0 5rem;
     }
 
     .tm-card {
