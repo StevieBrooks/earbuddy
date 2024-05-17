@@ -3,7 +3,6 @@
     <main class="site-main">
         <div class="container">
 
-
             <?php 
                 $content = get_the_content(); 
                 if ($content) {

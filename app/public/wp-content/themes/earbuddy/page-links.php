@@ -6,8 +6,7 @@
             <?php 
                 $content = get_the_content(); 
                 if ($content) {
-                    $split_content = explode('split-here', $content);
-                    echo $split_content[0];
+                    the_content();
                 } else {
                     echo "<h2 class='dev-message'>Page under development</h2>";
                 }
