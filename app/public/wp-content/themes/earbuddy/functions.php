@@ -6,6 +6,7 @@ function earbuddy_load_scripts() {
     wp_enqueue_style('earbuddy-style', get_stylesheet_uri(), array(), '1.1', 'all');
     wp_enqueue_script('script', get_template_directory_uri() . '/assets/js/script.js', array(), '1.0', false );
     wp_enqueue_script('faq-toggle', get_template_directory_uri() . '/assets/js/faq-toggle.js', array(), '1.0', false );
+    wp_enqueue_script('benefit-toggle', get_template_directory_uri() . '/assets/js/benefit-toggle.js', array(), '1.0', false );
 }
 
 add_action('wp_enqueue_scripts', 'earbuddy_load_scripts');
