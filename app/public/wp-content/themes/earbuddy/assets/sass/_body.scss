@@ -381,4 +381,10 @@
         transform: rotate(180deg);
     }
 
+    @media ( max-width: $small ) {
+        .hero .container {
+            padding: 0 2rem;
+        }
+    }
+
 }
