@@ -49,6 +49,11 @@
 
     .copyright {
         width: 100%;
+        padding: 0 2rem;
+        margin: 0 1rem;
+        text-align: center;
+        border-left: 1px solid $primary;
+        border-right: 1px solid $primary;
     }
 
     .footer-nav {
@@ -58,6 +63,43 @@
     .footer-nav ul {
         list-style: none;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .footer-nav li {
+        margin: .5rem 1rem;
+    }
+
+}
+
+// make this better
+@media ( max-width: $medium ) {
+    .site-footer {
+        flex-direction: column !important;
+    }
+
+    .site-footer .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .site-footer .copyright {
+        order: 3;
+        border-left: none; 
+        border-right: none;  
+    }
+    
+    .site-footer .footer-nav {
+        padding: 2rem 0;
+    }
+
+}
+
+@media ( max-width: $small ) {
+    .site-footer .copyright {
+        padding: 0;
+        margin: 0 .5rem;
     }
 }
+

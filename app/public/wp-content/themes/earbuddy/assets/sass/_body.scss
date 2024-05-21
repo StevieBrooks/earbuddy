@@ -117,10 +117,7 @@
 
     .home-intro figure {
         float: right;
-        width: 40%;
-    }
-
-    .home-intro figure {
+        width: $figLarge;
         padding: 0 0 1rem 1rem;
     }
     
@@ -151,14 +148,15 @@
         margin: 0 0 5rem;
         padding: 0 0 5rem;
         border-bottom: 10px solid $primary;
-
-        // @media (max-width: 975px) {
-        //     flex-direction: column;
-        // }
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap !important;
     }
     
     .about-cards .wp-block-column {
         margin: 1rem;
+        min-width: 300px;
+        max-width: 400px;
         border-radius: 10px;
         box-shadow: 2px 2px 10px $ink;
         // border: 5px solid $ink;
@@ -206,7 +204,7 @@
 
     .home-info figure {
         float: left;
-        width: 30%;
+        width: $figLarge;
         padding: 0 2rem 1rem 0;
     }
     
@@ -256,11 +254,12 @@
 
     .benefits-list .fa-solid {
         margin: 2rem;
+        font-size: 2rem;
     }
 
     .benefits-list .fa-solid:first-of-type {
         width: fit-content;
-        font-size: 3rem;
+        // font-size: 3rem;
         // padding: 1rem;
         margin-right: 1rem;
     }
@@ -270,7 +269,7 @@
         align-self: flex-end;
         margin-left: auto;
         position: relative;
-        bottom: 1rem;
+        top: 0;
     }
     
     .benefits-list p {
@@ -308,9 +307,9 @@
     }
 
     .home-beta-info figure {
-        width: 30%;
+        width: $figLarge;
         float: right;
-        padding-left: 2rem;
+        padding: 0 0 1rem 2rem;
     }
 
     .home-beta-info img {
@@ -354,7 +353,7 @@
 
     .home-mail-cta figure {
         float: left;
-        width: 30%;
+        width: $figLarge;
         padding: 0 2rem 1rem 0;
     }
 
@@ -381,9 +380,156 @@
         transform: rotate(180deg);
     }
 
+
+    // RESPONSIVENESS
+    @media ( max-width: $large ) {
+        .home-benefits div {
+            width: 80%;
+        }
+
+        .home-beta-info div, .home-mail-cta div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .home-beta-info figure, .home-mail-cta figure {
+            padding: 0;
+        }
+    }
+
+    @media ( max-width: $medium ) {
+        .home-intro div, .home-info div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .home-intro h1 {
+            order: 1;
+        }
+
+        .home-intro figure {
+            order: 3;
+            padding: 3rem 0;
+        }
+
+        .home-intro p:first-of-type {
+            order: 2;
+            margin-top: 0;
+        }
+        
+        .home-intro p:last-of-type {
+            order: 4;
+            margin-top: 0;
+        }
+
+        .about-cards .wp-block-column {
+            max-width: 100%;
+            margin: 1rem .5rem;
+        }
+
+        .home-info figure {
+            padding: 0;
+        }
+
+        .home-benefits div {
+            width: 100%;
+        }
+
+        .home-beta-info div, .home-mail-cta div {
+            width: 100%;
+        }
+
+        .sidebar:has(.email-sidebar) {
+            grid-column: span 4;
+        }
+    }
+
     @media ( max-width: $small ) {
+        
         .hero .container {
             padding: 0 2rem;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        .hero #forminator-poll-581--title {
+            font-size: 2rem !important;
+        }
+
+        // .hero .forminator-field {
+        //     flex-direction: column;
+        // }
+
+        .container {
+            padding: 0 2rem;
+        }
+
+        .home-intro figure, .home-info figure {
+            width: 300px;
+        }
+
+        .home-benefits .fa-solid {
+            // font-size: 2rem;
+            margin: 1rem;
+        }
+
+        .home-benefits .fa-solid:last-of-type {
+            font-size: 1rem;
+            position: relative;
+            top: -.5rem;
+        }
+
+        .home-benefits p {
+            font-size: 1.2rem;
+        }
+
+        .home-beta-info figure, .home-mail-cta figure {
+            width: $figMedium;
+        }
+
+        .home-beta-info p, .home-beta-info a, .home-mail-cta p {
+            font-size: 1.2rem;
+        }
+
+    }
+
+    @media ( max-width: $superSmall ) {
+        .hero .container {
+            padding: 0 1.5rem;
+        }
+
+        .container {
+            padding: 0 1rem;
+        }
+
+        .home-intro figure, .home-info figure {
+            width: 260px;
+        }
+
+        .about-cards .wp-block-column {
+            min-width: 250px;
+        }
+
+        .home-benefits .fa-solid {
+            font-size: 1rem;
+        }
+
+        .home-benefits .fa-solid:last-of-type {
+            top: 0;
+        }
+
+        .home-beta-info figure, .home-mail-cta figure {
+            width: $figSmall;
+        }
+
+        .sidebar:has(.email-sidebar) {
+            padding: 2rem .5rem 0;
         }
     }
 

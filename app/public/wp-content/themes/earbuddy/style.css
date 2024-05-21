@@ -164,7 +164,7 @@ a {
   position: absolute;
   left: -110%;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: -1;
   transition: 0.5s ease-out;
 }
@@ -179,7 +179,7 @@ a {
   width: 40px;
   height: 4px;
   border-radius: 20px;
-  background-color: #F6F6F6;
+  background-color: #00A2C9;
   margin: 0.5rem 0;
   transition: 0.3s ease-out;
 }
@@ -280,6 +280,9 @@ a {
   }
 }
 @media (max-width: 600px) {
+  .site-header .top-bar {
+    padding: 0 1rem;
+  }
   .site-header .top-bar .logo h2 {
     display: none;
   }
@@ -386,9 +389,7 @@ a {
 }
 .site-main .home-intro figure {
   float: right;
-  width: 40%;
-}
-.site-main .home-intro figure {
+  width: 400px;
   padding: 0 0 1rem 1rem;
 }
 .site-main .home-intro img {
@@ -411,9 +412,14 @@ a {
   margin: 0 0 5rem;
   padding: 0 0 5rem;
   border-bottom: 10px solid #00A2C9;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap !important;
 }
 .site-main .about-cards .wp-block-column {
   margin: 1rem;
+  min-width: 300px;
+  max-width: 400px;
   border-radius: 10px;
   box-shadow: 2px 2px 10px #000100;
   background-color: #F6F6F6;
@@ -452,7 +458,7 @@ a {
 }
 .site-main .home-info figure {
   float: left;
-  width: 30%;
+  width: 400px;
   padding: 0 2rem 1rem 0;
 }
 .site-main .home-info img {
@@ -493,10 +499,10 @@ a {
 }
 .site-main .benefits-list .fa-solid {
   margin: 2rem;
+  font-size: 2rem;
 }
 .site-main .benefits-list .fa-solid:first-of-type {
   width: fit-content;
-  font-size: 3rem;
   margin-right: 1rem;
 }
 .site-main .benefits-list .fa-solid:last-of-type {
@@ -504,7 +510,7 @@ a {
   align-self: flex-end;
   margin-left: auto;
   position: relative;
-  bottom: 1rem;
+  top: 0;
 }
 .site-main .benefits-list p {
   font-size: 1.5rem;
@@ -534,9 +540,9 @@ a {
   margin: 0 0 5rem;
 }
 .site-main .home-beta-info figure {
-  width: 30%;
+  width: 400px;
   float: right;
-  padding-left: 2rem;
+  padding: 0 0 1rem 2rem;
 }
 .site-main .home-beta-info img {
   border-radius: 73% 27% 66% 34%/46% 46% 54% 54%;
@@ -571,7 +577,7 @@ a {
 }
 .site-main .home-mail-cta figure {
   float: left;
-  width: 30%;
+  width: 400px;
   padding: 0 2rem 1rem 0;
 }
 .site-main .home-mail-cta img {
@@ -591,9 +597,116 @@ a {
 .site-main .flip {
   transform: rotate(180deg);
 }
+@media (max-width: 1000px) {
+  .site-main .home-benefits div {
+    width: 80%;
+  }
+  .site-main .home-beta-info div, .site-main .home-mail-cta div {
+    display: flex;
+    flex-direction: column;
+  }
+  .site-main .home-beta-info figure, .site-main .home-mail-cta figure {
+    padding: 0;
+  }
+}
+@media (max-width: 800px) {
+  .site-main .home-intro div, .site-main .home-info div {
+    display: flex;
+    flex-direction: column;
+  }
+  .site-main .home-intro h1 {
+    order: 1;
+  }
+  .site-main .home-intro figure {
+    order: 3;
+    padding: 3rem 0;
+  }
+  .site-main .home-intro p:first-of-type {
+    order: 2;
+    margin-top: 0;
+  }
+  .site-main .home-intro p:last-of-type {
+    order: 4;
+    margin-top: 0;
+  }
+  .site-main .about-cards .wp-block-column {
+    max-width: 100%;
+    margin: 1rem 0.5rem;
+  }
+  .site-main .home-info figure {
+    padding: 0;
+  }
+  .site-main .home-benefits div {
+    width: 100%;
+  }
+  .site-main .home-beta-info div, .site-main .home-mail-cta div {
+    width: 100%;
+  }
+  .site-main .sidebar:has(.email-sidebar) {
+    grid-column: span 4;
+  }
+}
 @media (max-width: 600px) {
   .site-main .hero .container {
     padding: 0 2rem;
+  }
+  .site-main .hero h2 {
+    font-size: 2rem;
+  }
+  .site-main .hero p {
+    font-size: 1.2rem;
+  }
+  .site-main .hero #forminator-poll-581--title {
+    font-size: 2rem !important;
+  }
+  .site-main .container {
+    padding: 0 2rem;
+  }
+  .site-main .home-intro figure, .site-main .home-info figure {
+    width: 300px;
+  }
+  .site-main .home-benefits .fa-solid {
+    margin: 1rem;
+  }
+  .site-main .home-benefits .fa-solid:last-of-type {
+    font-size: 1rem;
+    position: relative;
+    top: -0.5rem;
+  }
+  .site-main .home-benefits p {
+    font-size: 1.2rem;
+  }
+  .site-main .home-beta-info figure, .site-main .home-mail-cta figure {
+    width: 300px;
+  }
+  .site-main .home-beta-info p, .site-main .home-beta-info a, .site-main .home-mail-cta p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 400px) {
+  .site-main .hero .container {
+    padding: 0 1.5rem;
+  }
+  .site-main .container {
+    padding: 0 1rem;
+  }
+  .site-main .home-intro figure, .site-main .home-info figure {
+    width: 260px;
+  }
+  .site-main .about-cards .wp-block-column {
+    min-width: 250px;
+  }
+  .site-main .home-benefits .fa-solid {
+    font-size: 1rem;
+  }
+  .site-main .home-benefits .fa-solid:last-of-type {
+    top: 0;
+  }
+  .site-main .home-beta-info figure, .site-main .home-mail-cta figure {
+    width: 260px;
+  }
+  .site-main .sidebar:has(.email-sidebar) {
+    padding: 2rem 0.5rem 0;
   }
 }
 
@@ -640,6 +753,11 @@ a {
 }
 .site-footer .copyright {
   width: 100%;
+  padding: 0 2rem;
+  margin: 0 1rem;
+  text-align: center;
+  border-left: 1px solid #00A2C9;
+  border-right: 1px solid #00A2C9;
 }
 .site-footer .footer-nav {
   width: 100%;
@@ -647,9 +765,36 @@ a {
 .site-footer .footer-nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.site-footer .footer-nav li {
+  margin: 0.5rem 1rem;
 }
 
+@media (max-width: 800px) {
+  .site-footer {
+    flex-direction: column !important;
+  }
+  .site-footer .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .site-footer .copyright {
+    order: 3;
+    border-left: none;
+    border-right: none;
+  }
+  .site-footer .footer-nav {
+    padding: 2rem 0;
+  }
+}
+@media (max-width: 600px) {
+  .site-footer .copyright {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+}
 .site-main .about-intro, .site-main .eb-intro {
   margin: 5rem 0 5rem;
 }
