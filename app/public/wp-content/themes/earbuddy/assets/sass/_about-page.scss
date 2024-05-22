@@ -1,33 +1,33 @@
 .site-main {
 
-    .about-intro, .eb-intro {
+    .about-intro, .eb-intro, .lonely-intro, .iso-intro {
         margin: 5rem 0 5rem;
     }
 
-    .eb-intro {
+    .eb-intro, .lonely-intro, .iso-intro {
         padding: 0 0 5rem;
         border-bottom: 10px solid $primary;
     }
 
-    .about-intro div, .eb-intro div {
+    .about-intro div, .eb-intro div, .lonely-intro div, .iso-intro div {
         width: 80%;
         margin: auto;
     }
 
-    .about-intro h1, .eb-intro h1 {
+    .about-intro h1, .eb-intro h1, .lonely-intro h1, .iso-intro h1 {
         margin: 0 0 5rem;
     }
 
     .about-intro figure {
         padding: 0 0 1rem 2rem;
         float: right;
-        width: 300px;
+        width: $figMedium;
     }
 
-    .eb-intro figure {
+    .eb-intro figure, .lonely-intro figure, .iso-intro figure  {
         padding: 0 2rem 1rem 0;
         float: left;
-        width: 300px;
+        width: $figMedium;
     }
 
     .about-intro img {
@@ -35,7 +35,7 @@
         box-shadow: 1px 1px 3px $ink;
     }
 
-    .eb-intro img {
+    .eb-intro img, .iso-intro img {
         border-radius: 72% 28% 14% 86% / 44% 62% 38% 56% ;
         box-shadow: 1px 1px 3px $ink;
     }
@@ -115,4 +115,75 @@
         border-radius: 68% 32% 78% 22% / 26% 89% 11% 74%;
         box-shadow: 1px 1px 3px $ink;
     }
+
+
+    @media ( max-width: $medium ) {
+        .about-intro div, .eb-intro div, .lonely-intro div, .iso-intro div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .about-intro figure, .eb-intro figure {
+            padding: 3rem 0;
+            order: 1;
+        }
+
+        .lonely-intro figure, .iso-intro figure {
+            padding: 0;
+            margin-bottom: 2.5rem;
+        }
+
+        .about-intro p:first-of-type, .eb-intro p:first-of-type {
+            order: 0;
+            margin-top: 0;
+        }
+
+        .about-intro p:last-of-type, .eb-intro p:last-of-type {
+            margin-top: 0;
+            order: 2;
+        }
+
+        @media ( max-width: $small ) {
+            .lonely-intro h1, .iso-intro h1 {
+                font-size: 2.5rem;
+            }
+            .ear-columns .ear-column {
+                margin: 1rem 0;
+            }
+
+            .info-article div {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .info-article .image-left, .info-article .image-right {
+                width: $figMedium;
+                max-width: none;
+                padding: 0;
+            }
+
+            .info-article .image-right {
+                margin-top: 0;
+                margin-bottom: 5rem;
+            }
+
+            .info-article .image-left {
+                margin-bottom: 0;
+            }
+
+        }
+
+        @media ( max-width: $superSmall ) {
+            .about-intro figure, .eb-intro figure {
+                width: $figSmall;
+            }
+
+            .lonely-intro figure, .iso-intro figure, .info-article .image-left, .info-article .image-right {
+                width: $figSmall;
+            }
+        }
+    }
+
 }
+

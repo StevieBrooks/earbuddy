@@ -85,10 +85,6 @@
         display: none;
     }
 
-    .forminator-field label {
-        text-align: left;
-    }
-
     .sidebar {
         border-radius: 10px;
         box-shadow: 3px 3px 10px $ink;
@@ -462,10 +458,6 @@
             font-size: 2rem !important;
         }
 
-        // .hero .forminator-field {
-        //     flex-direction: column;
-        // }
-
         .container {
             padding: 0 2rem;
         }
@@ -475,7 +467,6 @@
         }
 
         .home-benefits .fa-solid {
-            // font-size: 2rem;
             margin: 1rem;
         }
 

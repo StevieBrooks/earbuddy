@@ -26,11 +26,40 @@
         box-shadow: 1px 1px 3px $ink;
     }
 
+    .contact-intro a {
+        font-size: 1.5rem;
+    }
+
     .forminator-guttenberg {
         grid-column: 2 / span 2;
     }
 
     .contact-sidebar h2 {
         margin: 0 0 2rem;
+    }
+
+    @media ( max-width: $medium ) {
+        .contact-intro div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-intro figure {
+            padding: 0;
+            margin-bottom: 2.5rem;
+        }
+
+        .sidebar:has(.contact-sidebar) {
+            grid-column: span 4;
+        }
+    }
+
+    @media ( max-width: $superSmall ) {
+        .contact-intro figure {
+            width: $figSmall;
+        }
+        .sidebar:has(.contact-sidebar) {
+            padding: 2rem .5rem;
+        }
     }
 }
