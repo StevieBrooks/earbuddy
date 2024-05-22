@@ -46,11 +46,6 @@
                                 <h2><a href="<?php the_permalink(); ?>"><?php echo $name; ?></a></h2>
                                 <p><?php echo $position; ?></p>
                                 <p><?php echo $excerpt . "..."; ?></p>
-                                <div class="container">
-                                    <button>
-                                        <a href="<?php echo $social['url']; ?>" target="_blank">Visit my <?php echo $social['title']; ?></a>
-                                    </button>
-                                </div>
                             </div>
                         </article>
                     <?php endwhile; ?>

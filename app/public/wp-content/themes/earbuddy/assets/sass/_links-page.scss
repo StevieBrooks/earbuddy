@@ -83,6 +83,13 @@
         font-size: 1.5rem;
     }
 
+    .hl-profile img {
+        width: $figLarge;
+        max-width: 50%;
+        float: left;
+        margin: 2rem;
+    }
+
     .hl-profile a {
         margin: 1rem auto;
     }
@@ -115,6 +122,33 @@
             padding: 0;
             margin-bottom: 2.5rem;
         }
+
+        .hl-profile {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hl-profile h2 {
+            order: 1;
+        }
+
+        .hl-profile p:first-of-type {
+            order: 2;
+        }
+
+        .hl-profile img {
+            order: 3;
+            margin: 2.5rem auto 0;
+            max-width: $figLarge;
+        }
+
+        .hl-profile p:not(:first-of-type) {
+            order: 4;
+        }
+
+        .hl-profile .container {
+            order: 5;
+        }
     }
 
     @media ( max-width: $small ) {
@@ -134,10 +168,18 @@
         .hl-card p {
             padding: .5rem;
         }
+
+        .hl-profile img {
+            width: $figMedium;
+        }
     }
 
     @media ( max-width: $superSmall ) {
         .links-intro figure {
+            width: $figSmall;
+        }
+
+        .hl-profile img {
             width: $figSmall;
         }
     }

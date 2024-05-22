@@ -17,7 +17,7 @@
 
     .team-intro figure {
         float: left;
-        width: 300px;
+        width: $figMedium;
         padding: 0 2rem 1rem 0;
     }
 
@@ -82,6 +82,13 @@
         font-size: 1.5rem;
     }
 
+    .tm-profile img {
+        width: $figLarge;
+        max-width: 50%;
+        float: left;
+        margin: 2rem;
+    }
+
     .tm-profile a {
         margin: 1rem auto;
     }
@@ -113,5 +120,73 @@
 
     .tm-profile p:first-of-type {
         display: none;
+    }
+
+    @media ( max-width: $medium ) {
+        .team-intro div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .team-intro figure {
+            padding: 0;
+            margin-bottom: 2.5rem;
+        }
+
+        .tm-profile {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tm-profile h2 {
+            order: 1;
+        }
+
+        .tm-profile img {
+            order: 2;
+            margin: 2.5rem auto 0;
+            max-width: $figLarge;
+        }
+
+        .tm-profile p {
+            order: 3;
+        }
+
+        .tm-profile .container {
+            order: 4;
+        }
+    }
+
+    @media ( max-width: $small ) {
+        .tm-card {
+            width: 300px;
+            min-width: 0;
+        }
+
+        .tm-card .tm-image {
+            height: 200px;
+        }
+
+        .tm-card h2 {
+            padding: .5rem;
+        }
+
+        .tm-card p {
+            padding: .5rem;
+        }
+
+        .tm-profile img {
+            max-width: $figMedium;
+        }
+    }
+
+    @media ( max-width: $superSmall ) {
+        .team-intro figure {
+            width: $figSmall;
+        }
+
+        .tm-profile img {
+            max-width: $figSmall;
+        }
     }
 }

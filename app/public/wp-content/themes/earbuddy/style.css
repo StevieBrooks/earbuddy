@@ -702,6 +702,9 @@ a {
   .site-main .sidebar:has(.email-sidebar) {
     padding: 2rem 0.5rem 0;
   }
+  .site-main .email-sidebar h2 {
+    font-size: 2rem;
+  }
 }
 
 .site-footer {
@@ -1011,6 +1014,12 @@ a {
   box-shadow: 1px 1px 2px #000100;
   font-size: 1.5rem;
 }
+.site-main .hl-profile img {
+  width: 400px;
+  max-width: 50%;
+  float: left;
+  margin: 2rem;
+}
 .site-main .hl-profile a {
   margin: 1rem auto;
 }
@@ -1038,6 +1047,27 @@ a {
     padding: 0;
     margin-bottom: 2.5rem;
   }
+  .site-main .hl-profile {
+    display: flex;
+    flex-direction: column;
+  }
+  .site-main .hl-profile h2 {
+    order: 1;
+  }
+  .site-main .hl-profile p:first-of-type {
+    order: 2;
+  }
+  .site-main .hl-profile img {
+    order: 3;
+    margin: 2.5rem auto 0;
+    max-width: 400px;
+  }
+  .site-main .hl-profile p:not(:first-of-type) {
+    order: 4;
+  }
+  .site-main .hl-profile .container {
+    order: 5;
+  }
 }
 @media (max-width: 600px) {
   .site-main .hl-card {
@@ -1053,9 +1083,15 @@ a {
   .site-main .hl-card p {
     padding: 0.5rem;
   }
+  .site-main .hl-profile img {
+    width: 300px;
+  }
 }
 @media (max-width: 400px) {
   .site-main .links-intro figure {
+    width: 260px;
+  }
+  .site-main .hl-profile img {
     width: 260px;
   }
 }
@@ -1118,6 +1154,40 @@ a {
 .site-main .faq-post a {
   color: #50C878;
   font-weight: bold;
+}
+@media (max-width: 1000px) {
+  .site-main .faq-posts {
+    grid-column: span 4;
+  }
+}
+@media (max-width: 800px) {
+  .site-main .faq-intro div {
+    display: flex;
+    flex-direction: column;
+  }
+  .site-main .faq-intro figure {
+    padding: 0;
+    margin-bottom: 2.5rem;
+  }
+  .site-main .sidebar:has(.faq-sidebar) {
+    grid-column: span 4;
+  }
+}
+@media (max-width: 600px) {
+  .site-main .faq-post h2 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 400px) {
+  .site-main .faq-intro figure {
+    width: 260px;
+  }
+  .site-main .sidebar:has(.faq-sidebar) {
+    padding: 2rem 0.5rem;
+  }
+  .site-main .faq-sidebar h2 {
+    font-size: 2rem;
+  }
 }
 
 .site-main .team-intro {
@@ -1190,6 +1260,12 @@ a {
   color: #F6F6F6;
   font-size: 1.5rem;
 }
+.site-main .tm-profile img {
+  width: 400px;
+  max-width: 50%;
+  float: left;
+  margin: 2rem;
+}
 .site-main .tm-profile a {
   margin: 1rem auto;
 }
@@ -1215,6 +1291,60 @@ a {
 }
 .site-main .tm-profile p:first-of-type {
   display: none;
+}
+@media (max-width: 800px) {
+  .site-main .team-intro div {
+    display: flex;
+    flex-direction: column;
+  }
+  .site-main .team-intro figure {
+    padding: 0;
+    margin-bottom: 2.5rem;
+  }
+  .site-main .tm-profile {
+    display: flex;
+    flex-direction: column;
+  }
+  .site-main .tm-profile h2 {
+    order: 1;
+  }
+  .site-main .tm-profile img {
+    order: 2;
+    margin: 2.5rem auto 0;
+    max-width: 400px;
+  }
+  .site-main .tm-profile p {
+    order: 3;
+  }
+  .site-main .tm-profile .container {
+    order: 4;
+  }
+}
+@media (max-width: 600px) {
+  .site-main .tm-card {
+    width: 300px;
+    min-width: 0;
+  }
+  .site-main .tm-card .tm-image {
+    height: 200px;
+  }
+  .site-main .tm-card h2 {
+    padding: 0.5rem;
+  }
+  .site-main .tm-card p {
+    padding: 0.5rem;
+  }
+  .site-main .tm-profile img {
+    max-width: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .site-main .team-intro figure {
+    width: 260px;
+  }
+  .site-main .tm-profile img {
+    max-width: 260px;
+  }
 }
 
 .site-main .contact-intro {
@@ -1267,16 +1397,11 @@ a {
   .site-main .sidebar:has(.contact-sidebar) {
     padding: 2rem 0.5rem;
   }
+  .site-main .contact-sidebar h2 {
+    font-size: 2rem;
+  }
 }
 
-.site-main .tm-profile img, .site-main .hl-profile img {
-  width: 50%;
-  float: left;
-  margin: 2rem;
-}
-.site-main .tm-profile:not(img), .site-main .hl-profile:not(img) {
-  margin-right: 2rem;
-}
 .site-main .error-404 {
   text-align: center;
 }

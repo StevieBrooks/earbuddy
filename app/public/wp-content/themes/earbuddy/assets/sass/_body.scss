@@ -522,6 +522,10 @@
         .sidebar:has(.email-sidebar) {
             padding: 2rem .5rem 0;
         }
+
+        .email-sidebar h2 {
+            font-size: 2rem;
+        }
     }
 
 }

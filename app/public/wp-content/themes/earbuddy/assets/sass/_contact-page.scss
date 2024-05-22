@@ -61,5 +61,9 @@
         .sidebar:has(.contact-sidebar) {
             padding: 2rem .5rem;
         }
+
+        .contact-sidebar h2 {
+            font-size: 2rem;
+        }
     }
 }

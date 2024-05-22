@@ -17,7 +17,7 @@
 
     .faq-intro figure {
         float: left;
-        width: 300px;
+        width: $figMedium;
         padding: 0 2rem 1rem 0;
     }
 
@@ -72,5 +72,46 @@
         font-weight: bold;
     }
 
+    @media ( max-width: $large ) {
+        .faq-posts {
+            grid-column: span 4;
+        }
+    }
+
+    @media ( max-width: $medium ) {
+        .faq-intro div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .faq-intro figure {
+            padding: 0;
+            margin-bottom: 2.5rem;
+        }
+
+        .sidebar:has(.faq-sidebar) {
+            grid-column: span 4;
+        }
+    }
+
+    @media ( max-width: $small ) {
+        .faq-post h2 {
+            font-size: 1.2rem;
+        }
+    }
+
+    @media ( max-width: $superSmall ) {
+        .faq-intro figure {
+            width: $figSmall;
+        }
+
+        .sidebar:has(.faq-sidebar) {
+            padding: 2rem .5rem;
+        }
+
+        .faq-sidebar h2 {
+            font-size: 2rem;
+        }
+    }
 
 }
