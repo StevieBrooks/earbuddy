@@ -91,3 +91,36 @@ a {
     letter-spacing: .5px;
     width: fit-content;
 }
+
+// CTA animation
+@keyframes cta-jump {
+    0% {
+        transform: translate(0, 4rem);
+    }
+    50% {
+        transform: translate(0, -2.5rem);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .hero-cta-anim {
+        animation: cta-jump .7s 1;
+    }
+}
+
+// img scale
+@keyframes img-scale {
+    0% {
+        transform: scale(0, 0);
+    }
+    50% {
+        transform: scale(0, .5);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .img-anim {
+        animation: img-scale 1s 1;
+    }
+}
+

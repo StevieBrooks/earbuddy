@@ -184,19 +184,5 @@
         }
     }
 
-    @keyframes img-jump {
-        0% {
-            transform: translate(0, 8rem);
-        }
-        50% {
-            transform: translate(0, -5rem);
-        }
-    }
-
-    @media (prefers-reduced-motion: no-preference) {
-        .img-anim {
-            animation: img-jump .7s 1;
-        }
-    }
 
 }
