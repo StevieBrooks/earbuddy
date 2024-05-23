@@ -119,7 +119,7 @@
     
     .home-intro img {
         box-shadow: 1px 1px 3px $ink;
-        border-radius: 48% 52% 76% 24% / 53% 83% 17% 47%;
+        border-radius: 10px;
     }
 
     .home-intro p {
@@ -206,7 +206,7 @@
     
     .home-info img {
         box-shadow: 1px 1px 3px $ink;
-        border-radius: 89% 11% 75% 25% / 10% 46% 54% 90%;
+        border-radius: 10px;
     }
 
     .home-benefits {
@@ -309,7 +309,7 @@
     }
 
     .home-beta-info img {
-        border-radius: 73% 27% 66% 34% / 46% 46% 54% 54%;
+        border-radius: 10px;
         box-shadow: 1px 1px 3px $ink;
     }
 
@@ -354,7 +354,7 @@
     }
 
     .home-mail-cta img {
-        border-radius: 30% 70% 29% 71% / 61% 23% 77% 39% ;
+        border-radius: 10px;
         box-shadow: 1px 1px 3px $ink;
     }
 
@@ -525,6 +525,21 @@
 
         .email-sidebar h2 {
             font-size: 2rem;
+        }
+    }
+
+    @keyframes cta-jump {
+        0% {
+            transform: translate(0, 8rem);
+        }
+        50% {
+            transform: translate(0, -5rem);
+        }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        .hero-cta-anim {
+            animation: cta-jump .7s 1;
         }
     }
 

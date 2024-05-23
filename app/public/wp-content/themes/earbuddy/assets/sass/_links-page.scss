@@ -22,7 +22,7 @@
     }
 
     .links-intro img {
-        border-radius: 45% 55% 14% 86% / 78% 62% 38% 22%;
+        border-radius: 10px;
         box-shadow: 1px 1px 3px $ink;
     }
 
@@ -181,6 +181,21 @@
 
         .hl-profile img {
             width: $figSmall;
+        }
+    }
+
+    @keyframes img-jump {
+        0% {
+            transform: translate(0, 8rem);
+        }
+        50% {
+            transform: translate(0, -5rem);
+        }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        .img-anim {
+            animation: img-jump .7s 1;
         }
     }
 

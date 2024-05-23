@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         bar1.classList.toggle('bar1-dropdown');
         bar2.classList.toggle('bar2-dropdown');
         bar3.classList.toggle('bar3-dropdown');
+        menuItem1.classList.toggle('add-color');
     });
 
 });

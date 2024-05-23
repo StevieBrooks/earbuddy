@@ -233,6 +233,15 @@
         .menu-item-570 {
             display: none;
         }
+
+        #menu-bottom-menu .sub-menu {
+            display: none;
+        }
+
+        // .menu-item-16 .sub-menu li {
+        //     padding-left: 0;
+        // }
+
     }
 
     @media ( max-width: $small ) {
