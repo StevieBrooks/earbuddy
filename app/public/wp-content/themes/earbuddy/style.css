@@ -138,6 +138,11 @@ a {
 .site-header .top-bar .logo {
   display: flex;
   align-items: center;
+  margin: 0.3rem 0;
+}
+.site-header .top-bar .logo .custom-logo-link {
+  display: flex;
+  align-items: center;
 }
 .site-header .top-bar .logo img {
   width: 50px;
@@ -183,6 +188,7 @@ a {
 }
 .site-header .top-bar .dropdown-nav {
   display: none;
+  padding-top: 0.3rem;
 }
 .site-header .top-bar .dropdown-nav .overlay {
   height: 100vh;
@@ -332,7 +338,7 @@ a {
   width: fit-content;
   max-width: 600px;
   background-color: #F6F6F6;
-  box-shadow: 3px 3px 10px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
   border-radius: 10px;
   text-align: center;
 }
@@ -389,14 +395,17 @@ a {
   display: none;
 }
 .site-main .sidebar {
-  border-radius: 10px;
-  box-shadow: 3px 3px 10px #000100;
-  background-color: #F6F6F6;
   margin: 0;
-  text-align: center;
+  text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+.site-main .sidebar:has(.hero-sidebar) {
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #000100;
+  background-color: #F6F6F6;
+  text-align: center;
 }
 .site-main .sidebar:has(.email-sidebar, .contact-sidebar, .faq-sidebar) {
   grid-column: 2/span 2;
@@ -416,7 +425,7 @@ a {
   padding: 0 0 1rem 1rem;
 }
 .site-main .home-intro img {
-  box-shadow: 1px 1px 3px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
   border-radius: 10px;
 }
 .site-main .home-intro p {
@@ -444,14 +453,13 @@ a {
   min-width: 300px;
   max-width: 400px;
   border-radius: 10px;
-  box-shadow: 2px 2px 10px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
   background-color: #F6F6F6;
   color: #000100;
   transition: 0.5s ease;
 }
 .site-main .about-cards .wp-block-column:hover {
   transform: translate(0, -0.5rem);
-  box-shadow: 3px 3px 10px #000100;
 }
 .site-main .about-cards .wp-block-column:hover h2 {
   background-color: #50C878;
@@ -485,7 +493,7 @@ a {
   padding: 0 2rem 1rem 0;
 }
 .site-main .home-info img {
-  box-shadow: 1px 1px 3px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
   border-radius: 10px;
 }
 .site-main .home-benefits {
@@ -522,10 +530,10 @@ a {
 }
 .site-main .benefits-list .fa-solid {
   margin: 2rem;
-  font-size: 2rem;
 }
 .site-main .benefits-list .fa-solid:first-of-type {
   width: fit-content;
+  font-size: 2rem;
   margin-right: 1rem;
 }
 .site-main .benefits-list .fa-solid:last-of-type {
@@ -569,7 +577,7 @@ a {
 }
 .site-main .home-beta-info img {
   border-radius: 10px;
-  box-shadow: 1px 1px 3px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
 }
 .site-main .home-beta-info p, .site-main .home-beta-info a {
   font-size: 1.5rem;
@@ -605,7 +613,7 @@ a {
 }
 .site-main .home-mail-cta img {
   border-radius: 10px;
-  box-shadow: 1px 1px 3px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
 }
 .site-main .home-mail-cta p {
   font-size: 1.5rem;
@@ -679,6 +687,12 @@ a {
   .site-main .hero p {
     font-size: 1.2rem;
   }
+  .site-main .hero-cta .forminator-ui#forminator-module-581 .forminator-poll-footer {
+    margin-top: 1rem;
+  }
+  .site-main .hero-cta .forminator-ui.forminator-poll-581 .forminator-field {
+    padding-top: 1rem !important;
+  }
   .site-main .hero #forminator-poll-581--title {
     font-size: 2rem !important;
   }
@@ -716,6 +730,9 @@ a {
   .site-main .home-intro figure, .site-main .home-info figure {
     width: 260px;
   }
+  .site-main .home-intro p {
+    font-size: 1.2rem;
+  }
   .site-main .about-cards .wp-block-column {
     min-width: 250px;
   }
@@ -724,6 +741,9 @@ a {
   }
   .site-main .home-benefits .fa-solid:last-of-type {
     top: 0;
+  }
+  .site-main .home-benefits p {
+    font-size: 1rem;
   }
   .site-main .home-beta-info figure, .site-main .home-mail-cta figure {
     width: 260px;
@@ -847,14 +867,15 @@ a {
 }
 .site-main .about-intro img {
   border-radius: 10px;
-  box-shadow: 1px 1px 3px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
 }
 .site-main .eb-intro img, .site-main .iso-intro img {
   border-radius: 10px;
-  box-shadow: 1px 1px 3px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
 }
 .site-main .lonely-intro img {
   border-radius: 10px;
+  box-shadow: 0.5px 2.5px 10px #000100;
 }
 .site-main .ear-columns {
   margin: 0;
@@ -865,14 +886,13 @@ a {
 .site-main .ear-columns .ear-column {
   margin: 1rem;
   border-radius: 10px;
-  box-shadow: 2px 2px 10px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
   background-color: #F6F6F6;
   color: #000100;
   transition: 0.5s ease;
 }
 .site-main .ear-columns .ear-column:hover {
   transform: translate(0, -0.5rem);
-  box-shadow: 3px 3px 10px #000100;
 }
 .site-main .ear-columns .ear-column:hover h2 {
   background-color: #50C878;
@@ -904,7 +924,7 @@ a {
 }
 .site-main .info-article .image-right img {
   border-radius: 10px;
-  box-shadow: 1px 1px 3px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
 }
 .site-main .info-article .image-left {
   float: left;
@@ -915,7 +935,7 @@ a {
 }
 .site-main .info-article .image-left img {
   border-radius: 10px;
-  box-shadow: 1px 1px 3px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
 }
 @media (max-width: 800px) {
   .site-main .about-intro div, .site-main .eb-intro div, .site-main .lonely-intro div, .site-main .iso-intro div {
@@ -992,7 +1012,7 @@ a {
 }
 .site-main .links-intro img {
   border-radius: 10px;
-  box-shadow: 1px 1px 3px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
 }
 .site-main .hl-cards {
   grid-column: span 4;
@@ -1003,7 +1023,7 @@ a {
 }
 .site-main .hl-card {
   border-radius: 10px;
-  box-shadow: 2px 2px 10px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
   background-color: #F6F6F6;
   margin: 1rem;
   width: 400px;
@@ -1014,7 +1034,6 @@ a {
   color: #F6F6F6;
 }
 .site-main .hl-card:hover {
-  box-shadow: 3px 3px 10px #000100;
   transform: translate(0, -0.5rem);
 }
 .site-main .hl-card .hl-image {
@@ -1144,7 +1163,7 @@ a {
 }
 .site-main .faq-intro img {
   border-radius: 10px;
-  box-shadow: 1px 1px 3px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
 }
 .site-main .faq-posts {
   margin: 0 0 5rem;
@@ -1238,7 +1257,7 @@ a {
 }
 .site-main .team-intro img {
   border-radius: 10px;
-  box-shadow: 1px 1px 3px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
 }
 .site-main .team-cards {
   grid-column: span 4;
@@ -1250,14 +1269,13 @@ a {
 .site-main .tm-card {
   margin: 1rem;
   background-color: #F6F6F6;
-  box-shadow: 2px 2px 5px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
   border-radius: 10px;
   width: 400px;
   min-width: 400px;
   transition: 0.5s ease;
 }
 .site-main .tm-card:hover {
-  box-shadow: 2px 2px 10px #000100;
   transform: translate(0, -0.5rem);
 }
 .site-main .tm-card .avatar {
@@ -1395,7 +1413,7 @@ a {
 }
 .site-main .contact-intro img {
   border-radius: 10px;
-  box-shadow: 1px 1px 3px #000100;
+  box-shadow: 0.5px 2.5px 10px #000100;
 }
 .site-main .contact-intro a {
   font-size: 1.5rem;

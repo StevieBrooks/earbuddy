@@ -25,6 +25,12 @@
         .logo {
             display: flex;
             align-items: center;
+            margin: .3rem 0;
+        }
+
+        .logo .custom-logo-link {
+            display: flex;
+            align-items: center;
         }
 
         .logo img {
@@ -81,6 +87,7 @@
 
         .dropdown-nav {
             display: none;
+            padding-top: .3rem;
         }
 
         .dropdown-nav .overlay {

@@ -23,7 +23,7 @@
 
     .team-intro img {
         border-radius: 10px;
-        box-shadow: 1px 1px 3px $ink;
+        box-shadow: $boxShadow;
     }
 
     .team-cards {
@@ -37,7 +37,7 @@
     .tm-card {
         margin: 1rem;
         background-color: $whitewash;
-        box-shadow: 2px 2px 5px $ink;
+        box-shadow: $boxShadow;
         border-radius: 10px;
         width: 400px;
         min-width: 400px;
@@ -45,7 +45,6 @@
     }
 
     .tm-card:hover {
-        box-shadow: 2px 2px 10px $ink;
         transform: translate(0, -.5rem);
     }
 

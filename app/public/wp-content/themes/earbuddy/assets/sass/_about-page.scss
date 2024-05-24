@@ -32,16 +32,17 @@
 
     .about-intro img {
         border-radius: 10px;
-        box-shadow: 1px 1px 3px $ink;
+        box-shadow: $boxShadow;
     }
 
     .eb-intro img, .iso-intro img {
         border-radius: 10px;
-        box-shadow: 1px 1px 3px $ink;
+        box-shadow: $boxShadow;
     }
 
     .lonely-intro img {
         border-radius: 10px;
+        box-shadow: $boxShadow;
     }
 
     .ear-columns {
@@ -54,7 +55,7 @@
     .ear-columns .ear-column {
         margin: 1rem;
         border-radius: 10px;
-        box-shadow: 2px 2px 10px $ink;
+        box-shadow: $boxShadow;
         background-color: $whitewash;
         color: $ink;
         transition: .5s ease;
@@ -62,7 +63,6 @@
     
     .ear-columns .ear-column:hover {
         transform: translate(0, -.5rem);
-        box-shadow: 3px 3px 10px $ink;
     }
 
     .ear-columns .ear-column:hover h2 {
@@ -100,7 +100,7 @@
     
     .info-article .image-right img {
         border-radius: 10px;
-        box-shadow: 1px 1px 3px $ink;
+        box-shadow: $boxShadow;
     }
 
     .info-article .image-left {
@@ -113,7 +113,7 @@
        
     .info-article .image-left img {
         border-radius: 10px;
-        box-shadow: 1px 1px 3px $ink;
+        box-shadow: $boxShadow;
     }
 
 
